@@ -19,14 +19,49 @@ return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
 """
 
 # https://oj.leetcode.com/discuss/77/restore-ip-addresses
+# tags: medium, string, dp, generator, dfs
 
 # TODO: DP or 3 loops
 # put 3 dots in len(s) - 1 places, but the distance between two dots must be 1 - 3,
-# so it's must be less than 3 * 3 * 3 in total
+# so it's must be less than 3 * 3 * 3 choices in total
 
 
+########## V2 ##########
+
+def valid_sec(string):
+    """Check if string is a valid IP address section"""
+    if len(string) == 0:
+        return False
+    num = int(string)
+    if string != str(num):
+        # invalid string like "000" -- only one "0" is okay
+        return False
+    return num >= 0 and num <= 255
+
+class Solution:
+    # @param s, a string
+    # @return a list of strings
+    def restoreIpAddresses(self, s):
+        
+        def restore(substring, sec_count):
+            if sec_count == 1:
+                if valid_sec(substring):
+                    yield substring
+                return
+            
+            for i in range(1, 4):
+                cur_sec = substring[:i]
+                if valid_sec(cur_sec):
+                    remainder = substring[i:]
+                    for each in restore(remainder, sec_count - 1):
+                        yield cur_sec + "." + each
+        
+        return list(restore(s, 4))
+
+
+########## V1 ##########
 # it doesn't need to have the loop: for left_sec in xrange(1, sec_num);
-# doing it in DP only need to break it into 1 + 3
+# doing it in DP only needs to break it into 1 + 3
 
 class Solution:
     # @param s, a string

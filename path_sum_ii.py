@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/path-sum-ii/
+# tags: easy, tree, dfs, sum
 
 """
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
@@ -35,8 +36,6 @@ return
 #         self.left = None
 #         self.right = None
 
-import copy
-
 class Solution:
     # @param root, a tree node
     # @param sum, an integer
@@ -44,19 +43,22 @@ class Solution:
     def pathSum(self, root, sum):
         
         res = []
-        def check_sum(root, sub_sum, nodes):
-            if root is None:
+        stack = []
+        def check_sum(node, sub_sum):
+            if node is None:
                 return
             
-            nodes.append(root.val)
-            sub_sum -= root.val
-            if root.left is None and root.right is None:
+            stack.append(node.val)
+            sub_sum -= node.val
+            if node.left is None and node.right is None:
                 if sub_sum == 0:
-                    res.append(nodes)
+                    # note: make a copy of current stack
+                    res.append(list(stack))
             else:
-                check_sum(root.left, sub_sum, copy.copy(nodes))
-                check_sum(root.right, sub_sum, copy.copy(nodes))
+                check_sum(node.left, sub_sum)
+                check_sum(node.right, sub_sum)
+            stack.pop()
         
-        check_sum(root, sum, [])
+        check_sum(root, sum)
         return res
 

@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/unique-binary-search-trees/
+# medium, tree, bst, recursion
 
 """
 Given n, how many structurally unique BST's (binary search trees) that store values 1...n?
@@ -22,6 +23,8 @@ Given n = 3, there are a total of 5 unique BST's.
    2     1         2                 3
 """
 
+# choose a number as the root and recursively build subtrees with
+# left and right subarrays. there are n numbers to pick as the root.
 # F(n) = F(0)*F(n-1) + F(1)*F(n-2) + F(2)*F(n-3) + ... + F(n-1)*F(0)
 # F(0) = F(1) = 1
 

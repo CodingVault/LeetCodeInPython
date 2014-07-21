@@ -39,15 +39,18 @@ class Solution:
     # @param root, a tree node
     # @return an integer
     def sumNumbers(self, root):
+        """Push the number formed by path to leaves,
+        and sum them up to ancestors.
+        """
         
         def sum_root(root, sub_sum=0):
             if root is None:
                 return 0
             
+            sub_sum = sub_sum * 10 + root.val
             if not root.left and not root.right:
-                return root.val + sub_sum
+                return sub_sum
             
-            sub_sum = (sub_sum + root.val) * 10
             left = sum_root(root.left, sub_sum)
             right = sum_root(root.right, sub_sum)
             return left + right
