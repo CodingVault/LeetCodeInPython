@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/merge-sorted-array/
+# tags: easy / medium, array, sorted, merge
 
 """
 Given two sorted integer arrays A and B, merge B into A as one sorted array.

@@ -24,6 +24,12 @@ Given the below binary tree,
 Return 6.
 """
 
+# https://oj.leetcode.com/discuss/6253/whats-wrong-with-binary-tree-maximum-path-sum-solution-python
+
+# TODO: it's likely there is unnecessary steps -- instead of passing
+#   ancestor sum down, only compare max path sum upward.
+#   Currently, the algo will get the max value passing through each node.
+
 # Definition for a  binary tree node
 # class TreeNode:
 #     def __init__(self, x):

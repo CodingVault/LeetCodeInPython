@@ -33,8 +33,8 @@ pseudo-code
     matrix[1][j] = [[j]]
     
   for i in [2..k]:  # length of each combination
-    for j in [i, n]:  # current number
-      for k in [i-1, j-1]:  # loop through prior combinations for number < j
+    for j in [i..n]:  # current number
+      for k in [i-1 .. j-1]:  # loop through prior combinations for number < j
         matrix[i][j] = []
         for each in matrix[i-1][k]:
           each.append(j)
@@ -42,7 +42,7 @@ pseudo-code
   
   result = []
   # collect all combinations for sub_combinations from matrix[k][k..n]
-  for j in [k, n]:
+  for j in [k..n]:
     result.extend(matrix[k][j])
 """
 

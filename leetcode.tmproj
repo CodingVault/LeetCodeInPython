@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>sorted_list_to_binary_tree.py</string>
+	<string>regex_matching.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -43,19 +43,19 @@
 					<key>filename</key>
 					<string>flatten_binary_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:54:45Z</date>
+					<date>2014-07-21T02:00:06Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>path_sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T01:17:16Z</date>
+					<date>2014-07-21T02:00:33Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>path_sum_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T01:30:18Z</date>
+					<date>2014-07-21T02:01:16Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -79,19 +79,19 @@
 					<key>filename</key>
 					<string>validate_binary_search_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:58:48Z</date>
+					<date>2014-07-21T01:56:32Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>unique_binary_search_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:59:13Z</date>
+					<date>2014-07-20T17:49:58Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>unique_binary_search_tree_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:59:32Z</date>
+					<date>2014-07-20T18:48:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -110,6 +110,24 @@
 					<string>maximum_depth_of_binary_tree.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-19T14:23:59Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>construct_binary_tree_from_inorder_postorder.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-20T17:20:06Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>construct_binary_tree_from_preorder_inorder.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-20T17:21:49Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>binary_tree_maximum_path_sum.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-21T07:19:51Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -154,7 +172,7 @@
 					<key>filename</key>
 					<string>swap_nodes_in_pairs.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:19:21Z</date>
+					<date>2014-07-21T01:59:30Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -178,7 +196,7 @@
 					<key>filename</key>
 					<string>remove_nth_node_from_end_of_list.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:20:28Z</date>
+					<date>2014-07-21T01:59:31Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -255,6 +273,102 @@
 					<key>lastUsed</key>
 					<date>2014-07-15T22:24:31Z</date>
 				</dict>
+				<dict>
+					<key>filename</key>
+					<string>combination_sum.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-21T05:24:17Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>combination_sum_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-21T06:55:04Z</date>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>set_matrix_zeros.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-07T00:02:46Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>surrounded_regions.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-15T21:49:47Z</date>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Matrix</string>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>merge_intervals.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-08T01:41:30Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>insert_intervals.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-08T17:31:42Z</date>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Intervals</string>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>container_with_most_water.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-10T04:21:38Z</date>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Water</string>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>pascals_triangle.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-15T21:52:39Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>pascals_triangle_ii.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-15T21:52:40Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>triangle.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-15T21:52:42Z</date>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Triangles</string>
+				</dict>
 			</array>
 			<key>expanded</key>
 			<true/>
@@ -280,7 +394,13 @@
 					<key>filename</key>
 					<string>word_search.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:06:34Z</date>
+					<date>2014-07-20T21:12:35Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>word_ladder.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-15T21:45:57Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -296,12 +416,6 @@
 				</dict>
 				<dict>
 					<key>filename</key>
-					<string>word_ladder.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T21:45:57Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
 					<string>interleave_string.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-15T21:58:59Z</date>
@@ -310,7 +424,7 @@
 					<key>filename</key>
 					<string>restore_ip_address.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:01:36Z</date>
+					<date>2014-07-21T01:36:02Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -347,6 +461,35 @@
 					<string>longest_palindrome_substring.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-17T04:36:23Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>scramble_string.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-21T04:54:19Z</date>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>wildcard_matching.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-21T07:08:42Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>regex_matching.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-21T07:19:51Z</date>
+							<key>selected</key>
+							<true/>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>Regex</string>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -429,6 +572,24 @@
 					<key>lastUsed</key>
 					<date>2014-07-19T12:13:37Z</date>
 				</dict>
+				<dict>
+					<key>filename</key>
+					<string>subsets.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-20T22:03:15Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>subsets_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-20T22:03:16Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>letter_combinations_of_phone_num.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-20T22:57:26Z</date>
+				</dict>
 			</array>
 			<key>expanded</key>
 			<true/>
@@ -442,25 +603,25 @@
 					<key>filename</key>
 					<string>largest_rectangle_in_histogram.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:17:55Z</date>
+					<date>2014-07-21T07:08:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>maximal_rectangle.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:17:28Z</date>
+					<date>2014-07-21T07:08:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>evaluate_reverse_polish_notation.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:17:21Z</date>
+					<date>2014-07-21T07:08:52Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>longest_valid_parentheses.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:17:18Z</date>
+					<date>2014-07-21T07:09:17Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -475,9 +636,7 @@
 					<key>filename</key>
 					<string>sorted_list_to_binary_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T01:30:22Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2014-07-20T17:15:28Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -538,111 +697,6 @@
 			<true/>
 			<key>name</key>
 			<string>Misc</string>
-		</dict>
-		<dict>
-			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
-					<string>pascals_triangle.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T21:52:39Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>pascals_triangle_ii.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T21:52:40Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>triangle.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T21:52:42Z</date>
-				</dict>
-			</array>
-			<key>expanded</key>
-			<true/>
-			<key>name</key>
-			<string>Triangles</string>
-		</dict>
-		<dict>
-			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
-					<string>set_matrix_zeros.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-07T00:02:46Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>surrounded_regions.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T21:49:47Z</date>
-				</dict>
-			</array>
-			<key>expanded</key>
-			<true/>
-			<key>name</key>
-			<string>Matrix</string>
-		</dict>
-		<dict>
-			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
-					<string>merge_intervals.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-08T01:41:30Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>insert_intervals.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-08T17:31:42Z</date>
-				</dict>
-			</array>
-			<key>expanded</key>
-			<true/>
-			<key>name</key>
-			<string>Intervals</string>
-		</dict>
-		<dict>
-			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
-					<string>wildcard_matching.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-10T20:13:32Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
-					<string>regex_matching.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T01:18:53Z</date>
-				</dict>
-			</array>
-			<key>expanded</key>
-			<true/>
-			<key>name</key>
-			<string>Regex</string>
-		</dict>
-		<dict>
-			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
-					<string>container_with_most_water.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-10T04:21:38Z</date>
-				</dict>
-			</array>
-			<key>expanded</key>
-			<true/>
-			<key>name</key>
-			<string>Water</string>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -773,6 +827,20 @@
 			<key>firstVisibleLine</key>
 			<integer>4</integer>
 		</dict>
+		<key>binary_tree_maximum_path_sum.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>48</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>18</integer>
+		</dict>
 		<key>binary_tree_postorder.py</key>
 		<dict>
 			<key>caret</key>
@@ -843,6 +911,50 @@
 			<key>firstVisibleLine</key>
 			<integer>4</integer>
 		</dict>
+		<key>combination_sum.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+		</dict>
+		<key>combination_sum_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>87</integer>
+				<key>line</key>
+				<integer>29</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>combinations.py</key>
 		<dict>
 			<key>caret</key>
@@ -851,6 +963,34 @@
 				<integer>11</integer>
 				<key>line</key>
 				<integer>48</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>construct_binary_tree_from_inorder_postorder.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>106</integer>
+				<key>line</key>
+				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>construct_binary_tree_from_preorder_inorder.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>74</integer>
+				<key>line</key>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -977,6 +1117,20 @@
 				<integer>83</integer>
 				<key>line</key>
 				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>letter_combinations_of_phone_num.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>58</integer>
+				<key>line</key>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1298,28 +1452,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>20</integer>
+				<integer>28</integer>
 				<key>line</key>
 				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>path_sum_ii.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>102</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>7</integer>
 		</dict>
 		<key>permutation_sequence.py</key>
 		<dict>
@@ -1424,9 +1578,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>3</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>44</integer>
+				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1508,14 +1662,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>43</integer>
+				<integer>42</integer>
 				<key>line</key>
-				<integer>28</integer>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>11</integer>
 		</dict>
 		<key>reverse_integer.py</key>
 		<dict>
@@ -1558,6 +1712,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>scramble_string.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>55</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>17</integer>
 		</dict>
 		<key>search_for_range.py</key>
 		<dict>
@@ -1671,6 +1839,34 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>subsets.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>53</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>subsets_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>53</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>substring_with_concatenation.py</key>
 		<dict>
 			<key>caret</key>
@@ -1760,9 +1956,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>56</integer>
+				<integer>68</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1774,9 +1970,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>3</integer>
+				<integer>41</integer>
 				<key>line</key>
-				<integer>44</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1872,14 +2068,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>32</integer>
+				<integer>35</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>13</integer>
 		</dict>
 		<key>zigzag_conversion.py</key>
 		<dict>
@@ -1953,17 +2149,27 @@
 		<string>balanced_binary_tree.py</string>
 		<string>path_sum_ii.py</string>
 		<string>flatten_binary_tree.py</string>
+		<string>path_sum.py</string>
 		<string>populate_next_right_pointers_ii.py</string>
 		<string>pascals_triangle.py</string>
 		<string>pascals_triangle_ii.py</string>
 		<string>triangle.py</string>
 		<string>sorted_list_to_binary_tree.py</string>
+		<string>construct_binary_tree_from_preorder_inorder.py</string>
+		<string>construct_binary_tree_from_inorder_postorder.py</string>
 		<string>symmetric_tree.py</string>
 		<string>same_tree.py</string>
 		<string>TODO.py</string>
 		<string>unique_binary_search_tree.py</string>
 		<string>unique_binary_search_tree_ii.py</string>
+		<string>subsets.py</string>
+		<string>subsets_ii.py</string>
+		<string>letter_combinations_of_phone_num.py</string>
 		<string>restore_ip_address.py</string>
+		<string>scramble_string.py</string>
+		<string>combination_sum.py</string>
+		<string>combination_sum_ii.py</string>
+		<string>binary_tree_maximum_path_sum.py</string>
 		<string>gray_code.py</string>
 		<string>partition_list.py</string>
 		<string>merge_sorted_array.py</string>
@@ -1974,7 +2180,6 @@
 		<string>LRU_cache.py</string>
 		<string>longest_palindrome_substring.py</string>
 		<string>reverse_integer.py</string>
-		<string>path_sum.py</string>
 		<string>validate_binary_search_tree.py</string>
 		<string>binary_tree_preorder.py</string>
 		<string>binary_tree_inorder.py</string>
