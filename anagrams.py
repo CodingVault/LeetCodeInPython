@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/anagrams/
-# tags: string, hashtable
+# tags: medium, string, hashtable
 
 """
 Given an array of strings, return all groups of strings that are anagrams.

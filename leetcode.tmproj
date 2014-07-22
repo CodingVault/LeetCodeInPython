@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>regex_matching.py</string>
+	<string>sort_list.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -197,6 +197,26 @@
 					<string>remove_nth_node_from_end_of_list.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-21T01:59:31Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>sort_list.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T18:38:45Z</date>
+					<key>selected</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>merge_k_sorted_lists.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T18:38:45Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>merge_two_sorted_lists.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T18:38:43Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -466,7 +486,13 @@
 					<key>filename</key>
 					<string>scramble_string.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T04:54:19Z</date>
+					<date>2014-07-22T18:34:05Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>anagrams.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T18:38:40Z</date>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -481,9 +507,7 @@
 							<key>filename</key>
 							<string>regex_matching.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-21T07:19:51Z</date>
-							<key>selected</key>
-							<true/>
+							<date>2014-07-22T18:09:54Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -504,7 +528,7 @@
 					<key>filename</key>
 					<string>single_number.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:45:28Z</date>
+					<date>2014-07-22T18:34:06Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -568,6 +592,12 @@
 				</dict>
 				<dict>
 					<key>filename</key>
+					<string>4sum.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T18:36:22Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
 					<string>reverse_integer.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-19T12:13:37Z</date>
@@ -588,7 +618,7 @@
 					<key>filename</key>
 					<string>letter_combinations_of_phone_num.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T22:57:26Z</date>
+					<date>2014-07-22T18:36:23Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -729,6 +759,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>4sum.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>44</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>LRU_cache.py</key>
 		<dict>
 			<key>caret</key>
@@ -779,6 +823,20 @@
 				<integer>72</integer>
 				<key>line</key>
 				<integer>18</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>anagrams.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>33</integer>
+				<key>line</key>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1321,6 +1379,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>merge_k_sorted_lists.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>merge_sorted_array.py</key>
 		<dict>
 			<key>caret</key>
@@ -1329,6 +1401,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>42</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>merge_two_sorted_lists.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>40</integer>
+				<key>line</key>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1797,6 +1883,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>sort_list.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
+		</dict>
 		<key>sorted_array_to_binary_tree.py</key>
 		<dict>
 			<key>caret</key>
@@ -2117,6 +2217,7 @@
 		<string>combinations.py</string>
 		<string>practices.html</string>
 		<string>single_number.py</string>
+		<string>4sum.py</string>
 		<string>swap_nodes_in_pairs.py</string>
 		<string>wildcard_matching.py</string>
 		<string>container_with_most_water.py</string>
@@ -2165,6 +2266,10 @@
 		<string>subsets.py</string>
 		<string>subsets_ii.py</string>
 		<string>letter_combinations_of_phone_num.py</string>
+		<string>anagrams.py</string>
+		<string>sort_list.py</string>
+		<string>merge_two_sorted_lists.py</string>
+		<string>merge_k_sorted_lists.py</string>
 		<string>restore_ip_address.py</string>
 		<string>scramble_string.py</string>
 		<string>combination_sum.py</string>
