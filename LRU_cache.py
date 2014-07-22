@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/lru-cache/
+# tags: hard, deque, hashtable, design
 
 """
 Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.

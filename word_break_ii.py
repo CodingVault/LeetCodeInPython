@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/word-break-ii/
+# tags: medium, string, dp, cached
 
 """
 Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
@@ -30,28 +31,25 @@ A solution is ["cats and dog", "cat sand dog"].
 
 class Solution:
     # @param s, a string
-    # @param dict, a set of string
+    # @param dictionary, a set of string
     # @return a list of strings
-    def wordBreak(self, s, dict):
-        string_with_words = {}
-    
+    def wordBreak(self, s, dictionary):
+        string_with_words = collections.defaultdict(list)
+        
         def break_string(s):
             if s in string_with_words:
                 return string_with_words[s]
             
-            # cann't use this because of TLE
-            # res = string_with_words.setdefault(s, [])
-            res = []
+            res = string_with_words[s]
             if s in dictionary:
                 res.append(s)
-
+            
             for index in xrange(len(s)):
                 cut = s[:index+1]
                 if cut in dictionary:
                     for words in break_string(s[index+1:]):
                         res.append(cut + ' ' + words)
-
-            string_with_words[s] = res
+            
             return res
-
+        
         return break_string(s)

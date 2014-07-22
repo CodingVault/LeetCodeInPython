@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/copy-list-with-random-pointer/
+# tags: medium, linked-list, hashtable, variation, copy
 
 """
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
@@ -21,6 +22,52 @@ Return a deep copy of the list.
 #         self.label = x
 #         self.next = None
 #         self.random = None
+
+
+############ brilliant hacky way ############
+# https://oj.leetcode.com/discuss/753/is-there-any-faster-method
+
+class Solution:
+    # @param head, a RandomListNode
+    # @return a RandomListNode
+    def copyRandomList(self, head):
+        if head is None:
+            return head
+        
+        # make copy of all the nodes and link
+        # them right behind the copied node
+        cursor = head
+        while cursor:
+            node = RandomListNode(cursor.label)
+            node.next = cursor.next
+            cursor.next = node
+            cursor = node.next
+        
+        # assign random links
+        # note: do not restore original list right now
+        #   as random links can point at prior nodes
+        cursor = head
+        while cursor:
+            copy_cursor = cursor.next
+            if cursor.random:
+                copy_cursor.random = cursor.random.next
+            cursor = copy_cursor.next
+        
+        # restore links in the original list and
+        # collect the copied list
+        cursor = head
+        copy_cursor = copy_head = head.next
+        while copy_cursor.next:
+            cursor.next = copy_cursor.next
+            cursor = cursor.next
+            copy_cursor.next = cursor.next
+            copy_cursor = cursor.next
+        cursor.next = None
+        
+        return copy_head
+
+
+############ using hashtable ############
 
 class Solution:
     # @param head, a RandomListNode

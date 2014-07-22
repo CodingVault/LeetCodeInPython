@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/
+# tags: medium / hard, string, dp, hashtable
 
 """
 You are given a string, S, and a list of words, L, that are all of the same length. Find all starting indices of substring(s) in S that is a concatenation of each word in L exactly once and without any intervening characters.
@@ -20,9 +21,13 @@ You should return the indices: [0,9].
 (order does not matter).
 """
 
+# https://oj.leetcode.com/discuss/1062/time-limit-exceeded-a-very-normal-algorithm
+# alternative: similar to Minimum Window Substring, scan the string three times starting from 0, 1, 2
+
 # 1. there could be dups in L
 # 2. substring can start at any index, even within previously matched substring
 # 3. optimization: set marker prior to the loop instead of building marker in the loop
+#       - or - instead of copying the marker, create a new dict and compare it with marker
 
 class Solution:
     # @param S, a string
@@ -49,6 +54,7 @@ class Solution:
                 cursor = i
                 marker_copy = marker.copy()
                 
+                # note: this can be re-write using `for` loop
                 while counter < len(L) and sub_s in L:
                     marker_copy[sub_s] -= 1
                     if marker_copy[sub_s] < 0:

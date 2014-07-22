@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/longest-consecutive-sequence/
+# tags: hard, array, numbers, hashtable, longest
 
 """
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
@@ -36,7 +37,9 @@ class Solution:
             low = cache[i - 1] if i - 1 in cache else i
             high = cache[i + 1] if i + 1 in cache else i
             
+            # IMPOTANT: server as a marker so it won't process dups
             cache[i] = i
+            
             cache[low] = high
             cache[high] = low
         

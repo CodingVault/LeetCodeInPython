@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/clone-graph/
+# tags: easy / medium, graph, hashtable, recursion, copy, dfs
 
 """
 Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors.
@@ -33,6 +34,8 @@ Visually, the graph looks like the following:
          / \
          \_/
 """
+
+# TODO: rewrite using stack instead of recurison
 
 # Definition for a undirected graph node
 # class UndirectedGraphNode:
