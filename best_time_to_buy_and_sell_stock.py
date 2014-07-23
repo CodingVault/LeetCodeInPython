@@ -8,12 +8,17 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/
+# tags: easy / medium, array, greedy, logic, optimization
 
 """
 Say you have an array for which the ith element is the price of a given stock on day i.
 
 If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
 """
+
+# TODO: try D&C
+
+# optimized: do not compute max_profix for each low and high
 
 class Solution:
     # @param prices, a list of integer
@@ -23,17 +28,20 @@ class Solution:
             return 0
 
         max_profit = 0
-        lowest = prices[0]
-        highest = prices[0]
+        lowest = highest = prices[0]
         
         for price in prices:
             if price > highest:
                 highest = price
-            if price < lowest:
+            
+            elif price < lowest:
+                # in case there is heigher price afterward,
+                # we should buy stock at this price; so
+                # compute prior max_profit and update lowest
+                # (as well as highest)
                 max_profit = max(highest - lowest, max_profit)
-                lowest = price
-                highest = price
+                lowest = highest = price
         
-        # remember to check the difference of the pair
-        # of highest and lowest in the end
+        # remember to check the difference of the last pair
+        # of highest and lowest prices in the end
         return max(highest - lowest, max_profit)

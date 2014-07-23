@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>sort_list.py</string>
+	<string>largest_rectangle_in_histogram.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -202,9 +202,7 @@
 					<key>filename</key>
 					<string>sort_list.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-22T18:38:45Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2014-07-22T18:45:40Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -267,13 +265,25 @@
 					<key>filename</key>
 					<string>search_in_rotated_array.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:17:16Z</date>
+					<date>2014-07-23T00:15:24Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>best_time_to_buy_and_sell_stock.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:52:38Z</date>
+					<date>2014-07-23T00:15:30Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>best_time_to_buy_and_sell_stock_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-23T00:54:31Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>best_time_to_buy_and_sell_stock_iii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-23T04:34:36Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -304,6 +314,38 @@
 					<string>combination_sum_ii.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-21T06:55:04Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>maximum_subarray.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-23T00:13:09Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>candy.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T22:12:40Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>jump_game.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T20:34:18Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>jump_game_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-22T22:12:41Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>largest_rectangle_in_histogram.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-23T05:08:29Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -354,7 +396,13 @@
 							<key>filename</key>
 							<string>container_with_most_water.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-10T04:21:38Z</date>
+							<date>2014-07-23T04:46:26Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>trap_rain_water.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-23T05:08:29Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -462,7 +510,7 @@
 					<key>filename</key>
 					<string>longest_string_without_repeating_chars.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:23:47Z</date>
+					<date>2014-07-22T22:01:10Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -645,13 +693,13 @@
 					<key>filename</key>
 					<string>evaluate_reverse_polish_notation.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T07:08:52Z</date>
+					<date>2014-07-22T18:46:46Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>longest_valid_parentheses.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T07:09:17Z</date>
+					<date>2014-07-22T18:46:37Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -684,7 +732,7 @@
 					<key>filename</key>
 					<string>clone_graph.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:46:58Z</date>
+					<date>2014-07-22T18:58:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -862,9 +910,37 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>48</integer>
+				<integer>60</integer>
 				<key>line</key>
-				<integer>38</integer>
+				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>best_time_to_buy_and_sell_stock_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>44</integer>
+				<key>line</key>
+				<integer>40</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>best_time_to_buy_and_sell_stock_iii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>47</integer>
+				<key>line</key>
+				<integer>59</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -941,6 +1017,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>candy.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>49</integer>
+				<key>line</key>
+				<integer>41</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>climb_stairs.py</key>
 		<dict>
 			<key>caret</key>
@@ -960,7 +1050,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>12</integer>
 				<key>line</key>
 				<integer>61</integer>
 			</dict>
@@ -1060,9 +1150,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>7</integer>
+				<integer>37</integer>
 				<key>line</key>
-				<integer>21</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1167,14 +1257,42 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>jump_game.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>48</integer>
+				<key>line</key>
+				<integer>25</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>jump_game_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>41</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>12</integer>
+		</dict>
 		<key>largest_rectangle_in_histogram.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>83</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1350,6 +1468,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>1</integer>
+		</dict>
+		<key>maximum_subarray.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>24</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>median_of_two_sorted_arrays.py</key>
 		<dict>
@@ -2037,6 +2169,20 @@
 			<key>firstVisibleLine</key>
 			<integer>6</integer>
 		</dict>
+		<key>trap_rain_water.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>34</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>triangle.py</key>
 		<dict>
 			<key>caret</key>
@@ -2220,15 +2366,21 @@
 		<string>4sum.py</string>
 		<string>swap_nodes_in_pairs.py</string>
 		<string>wildcard_matching.py</string>
-		<string>container_with_most_water.py</string>
 		<string>longest_string_without_repeating_chars.py</string>
+		<string>container_with_most_water.py</string>
+		<string>maximum_subarray.py</string>
 		<string>median_of_two_sorted_arrays.py</string>
 		<string>2sum.py</string>
 		<string>longest_common_prefix.py</string>
 		<string>longest_consecutive_sequence.py</string>
 		<string>zigzag_conversion.py</string>
 		<string>best_time_to_buy_and_sell_stock.py</string>
+		<string>best_time_to_buy_and_sell_stock_ii.py</string>
+		<string>best_time_to_buy_and_sell_stock_iii.py</string>
+		<string>trap_rain_water.py</string>
 		<string>clone_graph.py</string>
+		<string>jump_game.py</string>
+		<string>jump_game_ii.py</string>
 		<string>add_two_numbers.py</string>
 		<string>rotate_list.py</string>
 		<string>permutation_sequence.py</string>
@@ -2268,6 +2420,7 @@
 		<string>letter_combinations_of_phone_num.py</string>
 		<string>anagrams.py</string>
 		<string>sort_list.py</string>
+		<string>candy.py</string>
 		<string>merge_two_sorted_lists.py</string>
 		<string>merge_k_sorted_lists.py</string>
 		<string>restore_ip_address.py</string>
