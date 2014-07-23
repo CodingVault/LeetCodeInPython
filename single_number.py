@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/single-number/
+# tags: easy, numbers, bit manipulation
 
 """
 Given an array of integers, every element appears twice except for one. Find that single one.

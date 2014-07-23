@@ -8,10 +8,13 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/powx-n/
+# tags: easy / medium, numbers, D&C, bit manipulation
 
 """
 Implement pow(x, n).
 """
+
+# TODO: try bit manipulation
 
 def recursive_pow(x, n):
     if n == 0: return 1
