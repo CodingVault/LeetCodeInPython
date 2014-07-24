@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+# tags: easy / medium, array, pointer, dups, logic
 
 """
 Follow up for "Remove Duplicates":
@@ -20,6 +21,7 @@ Your function should return length = 5, and A is now [1,1,2,2,3].
 """
 
 # TODO: for cursor, check if A[cursor] != A[cursor-2] instead of A[cursor-1]
+#   rewrite it following the pattern of remove_dups_from_sorted_array
 
 class Solution:
     # @param A a list of integers

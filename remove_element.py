@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/remove-element/
+# tags: easy, array, pointer
 
 """
 Given an array and a value, remove all instances of that value in place and return the new length.

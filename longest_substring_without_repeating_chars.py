@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
+# tags: easy / medium, string, hashtable, longest, pointer
 
 """
 Given a string, find the length of the longest substring without repeating characters. For example, the longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
@@ -15,6 +16,33 @@ Given a string, find the length of the longest substring without repeating chara
 
 # http://leetcode.com/2011/05/longest-substring-without-repeating-characters.html
 # https://oj.leetcode.com/discuss/6168/my-o-n-solution
+
+
+# alternative: use dict instead of set to shortcut the second inner loop
+
+class Solution:
+    # @return an integer
+    def lengthOfLongestSubstring(self, s):
+    cache = {}
+    start = end = 0
+    max_length = 0
+
+    while end < len(s):
+        if s[end] in cache and cache[s[end]] >= start:
+            # the char s[end] exists in range [start, end),
+            # move start to the next char of prior `s[end]`
+            start = cache[s[end]] + 1
+
+        # update the index with latest one
+        cache[s[end]] = end
+        end += 1
+
+        max_length = max(max_length, end - start)
+
+    return max_length
+
+
+######### rudimentary version #########
 
 class Solution:
     # @return an integer
@@ -45,27 +73,4 @@ class Solution:
             cache.remove(s[start])
             start += 1
         
-        return max_length
-
-# alternative: use dict instead of set to shortcut the second inner loop
-
-class Solution:
-    # @return an integer
-    def lengthOfLongestSubstring(self, s):
-        cache = {}
-        start = end = 0
-        max_length = 0
-
-        while end < len(s):
-            if s[end] in cache and cache[s[end]] >= start:
-                # the char s[end] exists in range [start, end),
-                # move start to the next char of prior `s[end]`
-                start = cache[s[end]] + 1
-
-            # update the index with latest one
-            cache[s[end]] = end
-            end += 1
-
-            max_length = max(max_length, end - start)
-
         return max_length

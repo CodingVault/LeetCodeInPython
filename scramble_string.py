@@ -51,6 +51,17 @@ Given two strings s1 and s2 of the same length, determine if s2 is a scrambled s
 
 # https://oj.leetcode.com/discuss/3632/any-better-solution
 
+"""
+TODO: memorized version:
+1. build the base case for strings of length 1
+2. to compute if two strings of length m are scarmble strings, it needs to break them into two parts and
+    there are O(m), i.e., O(n), ways to break one string; checking if two substrings are scramble strings
+    can be done in constant time by utilizing the results of sub-problems; there are O(n-m), i.e., O(n),
+    strings of length m; thus there are O(n^2) pairs of strings of length m to compare, and total O(n^3)
+    time complexity for solving the problem if all pairs of substrings of length m are scramble strings
+3. for substrings of length 1 to length n, the running time will be O(n^4)
+"""
+
 ########## brute force ##########
 
 class Solution:

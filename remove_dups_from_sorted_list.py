@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
+# tags: easy, linked-list, pointer, dups
 
 """
 Given a sorted linked list, delete all duplicates such that each element appear only once.

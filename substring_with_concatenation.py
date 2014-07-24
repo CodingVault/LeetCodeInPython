@@ -37,7 +37,7 @@ class Solution:
         if L is None or len(L) == 0:
             return []
         word_length = len(L[0])
-            
+        
         if S is None or len(S) < word_length:
             return []
         

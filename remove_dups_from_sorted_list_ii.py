@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+# tags: medium, linked-list, pointer, dups, edge cases
 
 """
 Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.

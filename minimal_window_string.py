@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/minimum-window-substring/
+# tags: hard, string, hashtable, minimal, edge cases, clarification (dups)
 
 """
 Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
@@ -25,8 +26,8 @@ If there are multiple such windows, you are guaranteed that there will always be
 
 
 """
-Note for 3 bugs while implementing:
-1. should move left pointer when substring is set other than left > 0
+Notes for 3 bugs while implementing:
+1. should move left pointer when substring is set other than left > 0;
     alternatively, set left to -1 in the beginning and later check if it's > -1
 2. should check counter == char_count only when counter just changed
 3. should decrease counter only when lookup_dict entry is -1, which means
@@ -34,6 +35,10 @@ Note for 3 bugs while implementing:
 
 The last two are mainly due to the change of concept -- there can be dups in T.
 """
+
+# TODO:
+#   1. refactor it using a queue
+#   2. do not need to store both index and the char
 
 class Solution:
     # @return a string

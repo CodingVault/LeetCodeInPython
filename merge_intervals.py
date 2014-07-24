@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/merge-intervals/
+# tags: medium, array, interval
 
 """
 Given a collection of intervals, merge all overlapping intervals.
@@ -16,6 +17,8 @@ For example,
 Given [1,3],[2,6],[8,10],[15,18],
 return [1,6],[8,10],[15,18].
 """
+
+# ttps://gist.github.com/senvey/772e0afd345934cee475
 
 # Definition for an interval.
 # class Interval:
