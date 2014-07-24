@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/
+# tags: easy / medium, array, stack
 
 """
 Evaluate the value of an arithmetic expression in Reverse Polish Notation.
@@ -26,6 +27,7 @@ class Solution:
         
         stack = []
         for token in tokens:
+            # note: '-4'.isdigit() -> False
             if token.isdigit() or token[1:].isdigit():
                 stack.append(int(token))
                 continue

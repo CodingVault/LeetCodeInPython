@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/longest-valid-parentheses/
+# tags: medium / hard, array, parentheses, stack, longest
 
 """
 Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
