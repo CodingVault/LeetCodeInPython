@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/4sum/
-# tags: hard, numbers, sum, hashtable, logic
+# tags: hard, numbers, sum, hashtable, search, dups, logic
 
 """
 Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.

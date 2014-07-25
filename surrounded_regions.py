@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/surrounded-regions/
+# tags: hard, matrix, bfs
 
 """
 Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'.
@@ -28,9 +29,7 @@ X O X X
 """
 
 # https://oj.leetcode.com/discuss/6454/dp-bfs-solution-o-n
-
-def get_marker(m, n):
-    return [[0] * m for _ in xrange(n)]
+# http://blog.shengwei.li/leetcode-surrounded-regions/
 
 def flip(board, row, col, value):
     char_array = list(board[row])
@@ -38,16 +37,16 @@ def flip(board, row, col, value):
     board[row] = ''.join(char_array)
 
 def mark_escaped(board, row, col, marker):
-    bsf = [(row, col)]
-    while bsf:
-        row, col = bsf.pop(0)
+    bfs = [(row, col)]
+    while bfs:
+        row, col = bfs.pop(0)
         if row >= 0 and row < len(board) and col >= 0 and col < len(board[row]):
             if board[row][col] == 'O' and marker[row][col] != -1:
                 marker[row][col] = -1
-                bsf.append((row, col - 1))
-                bsf.append((row, col + 1))
-                bsf.append((row - 1, col))
-                bsf.append((row + 1, col))
+                bfs.append((row, col - 1))
+                bfs.append((row, col + 1))
+                bfs.append((row - 1, col))
+                bfs.append((row + 1, col))
 
 class Solution:
     # @param board, a 2D array
@@ -57,7 +56,7 @@ class Solution:
         if len(board) < 3 or len(board[0]) < 3:
             return
     
-        marker = get_marker(len(board[0]), len(board))
+        marker = [[0] * m for _ in xrange(n)]
     
         for i in xrange(0, len(board)):
             mark_escaped(board, i, 0, marker)

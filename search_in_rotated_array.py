@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/search-in-rotated-sorted-array/
+# tags: medium, array, search, rotated, edge cases
 
 """
 Suppose a sorted array is rotated at some pivot unknown to you beforehand.

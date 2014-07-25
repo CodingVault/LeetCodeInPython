@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/sqrtx/
+# tags: easy / medium, numbers, search
 
 """
 Implement int sqrt(int x).

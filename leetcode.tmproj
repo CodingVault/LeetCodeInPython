@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>simplify_path.py</string>
+	<string>3sum_closest.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -253,25 +253,31 @@
 					<key>filename</key>
 					<string>longest_consecutive_sequence.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:21:41Z</date>
+					<date>2014-07-24T18:59:47Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>search_insert_position.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:16:12Z</date>
+					<date>2014-07-24T19:52:12Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>search_for_range.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:15:16Z</date>
+					<date>2014-07-25T06:19:11Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>search_in_rotated_array.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T00:15:24Z</date>
+					<date>2014-07-25T06:17:56Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>search_in_rotated_array_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-25T06:17:55Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -307,7 +313,7 @@
 					<key>filename</key>
 					<string>median_of_two_sorted_arrays.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:24:31Z</date>
+					<date>2014-07-25T06:17:47Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -358,7 +364,7 @@
 							<key>filename</key>
 							<string>largest_rectangle_in_histogram.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-24T18:49:49Z</date>
+							<date>2014-07-24T18:58:48Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -376,15 +382,13 @@
 							<key>filename</key>
 							<string>longest_valid_parentheses.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-24T18:49:53Z</date>
+							<date>2014-07-24T18:58:44Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>simplify_path.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-24T18:49:53Z</date>
-							<key>selected</key>
-							<true/>
+							<date>2014-07-24T18:50:58Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -405,7 +409,7 @@
 							<key>filename</key>
 							<string>surrounded_regions.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-23T07:06:13Z</date>
+							<date>2014-07-24T18:58:43Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -418,6 +422,12 @@
 							<string>n_queens.py</string>
 							<key>lastUsed</key>
 							<date>2014-07-23T23:39:16Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>search_in_2d_matrix.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-24T20:39:39Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -663,7 +673,7 @@
 					<key>filename</key>
 					<string>sqrt.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:38:12Z</date>
+					<date>2014-07-25T20:06:23Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -705,13 +715,27 @@
 					<key>filename</key>
 					<string>2sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:42Z</date>
+					<date>2014-07-25T20:09:52Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>3sum.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-25T20:10:04Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>3sum_closest.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-25T20:10:13Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>4sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:31Z</date>
+					<date>2014-07-25T20:10:13Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -840,9 +864,37 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>3sum.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>3sum_closest.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>42</integer>
+				<integer>8</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -854,7 +906,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>44</integer>
+				<integer>47</integer>
 				<key>line</key>
 				<integer>10</integer>
 			</dict>
@@ -1444,9 +1496,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>55</integer>
+				<integer>39</integer>
 				<key>line</key>
-				<integer>45</integer>
+				<integer>47</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1542,14 +1594,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>50</integer>
+				<integer>43</integer>
 				<key>line</key>
-				<integer>67</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>merge_intervals.py</key>
 		<dict>
@@ -2032,9 +2084,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>42</integer>
 				<key>line</key>
-				<integer>84</integer>
+				<integer>28</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>18</integer>
+		</dict>
+		<key>search_in_2d_matrix.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>88</integer>
+				<key>line</key>
+				<integer>29</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2046,9 +2112,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>39</integer>
 				<key>line</key>
-				<integer>47</integer>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>search_in_rotated_array_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>70</integer>
+				<key>line</key>
+				<integer>24</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2060,9 +2140,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>38</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2186,9 +2266,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2256,14 +2336,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>80</integer>
 				<key>line</key>
-				<integer>50</integer>
+				<integer>42</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>9</integer>
 		</dict>
 		<key>swap_nodes_in_pairs.py</key>
 		<dict>
@@ -2481,7 +2561,9 @@
 		<string>word_break_ii.py</string>
 		<string>search_for_range.py</string>
 		<string>search_insert_position.py</string>
+		<string>search_in_2d_matrix.py</string>
 		<string>search_in_rotated_array.py</string>
+		<string>search_in_rotated_array_ii.py</string>
 		<string>valid_palindrome.py</string>
 		<string>word_ladder.py</string>
 		<string>palindrome_partition.py</string>
@@ -2511,6 +2593,8 @@
 		<string>maximum_subarray.py</string>
 		<string>median_of_two_sorted_arrays.py</string>
 		<string>2sum.py</string>
+		<string>3sum.py</string>
+		<string>3sum_closest.py</string>
 		<string>longest_common_prefix.py</string>
 		<string>longest_consecutive_sequence.py</string>
 		<string>zigzag_conversion.py</string>

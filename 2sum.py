@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/two-sum/
+# tags: easy / medium, numbers, search
 
 """
 Given an array of integers, find two numbers such that they add up to a specific target number.

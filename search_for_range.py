@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/search-for-a-range/
+# tags: medium, array, search
 
 """
 Given a sorted array of integers, find the starting and ending position of a given target value.
@@ -20,6 +21,12 @@ For example,
 Given [5, 7, 7, 8, 8, 10] and target value 8,
 return [3, 4].
 """
+
+# https://oj.leetcode.com/discuss/529/the-elements-the-whole-array-the-same-the-target-can-logn-time
+# alternative:
+#   1. search for the target in the original array
+#   2. search for the target in the left half until it cannot find the target -- left boundary
+#   3. search for the target in the right half until it cannot find the target -- right boundary
 
 class Solution:
     # @param A, a list of integers
