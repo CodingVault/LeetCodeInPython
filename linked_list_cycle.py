@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/linked-list-cycle/
+# tags: easy, linked-list, hashtable
 
 """
 Given a linked list, determine if it has a cycle in it.
@@ -22,6 +23,40 @@ Can you solve it without using extra space?
 #         self.val = x
 #         self.next = None
 
+############ no extra space ############
+class Solution:
+    # @param head, a ListNode
+    # @return a boolean
+    def hasCycle(self, head):
+        if head is None:
+            return False
+
+        walker, runner = head, head.next
+        while runner and runner.next:
+            if walker == runner:
+                return True
+            
+            walker = walker.next
+            runner = runner.next.next
+        
+        return False
+
+# and better:
+
+class Solution:
+    # @param head, a ListNode
+    # @return a boolean
+    def hasCycle(self, head):
+        walker, runner = head, head
+        while runner and runner.next:
+            walker = walker.next
+            runner = runner.next.next
+            if walker == runner:
+                return True
+        return False
+
+
+############ hashtable ############
 class Solution:
     # @param head, a ListNode
     # @return a boolean

@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/add-two-numbers/
+# tags: easy / medium, linked-list, numbers
 
 """
 You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
@@ -24,6 +25,29 @@ Output: 7 -> 0 -> 8
 #         self.val = x
 #         self.next = None
 
+############## V2 ##############
+class Solution:
+    # @return a ListNode
+    def addTwoNumbers(self, l1, l2):
+        if l1 is None or l2 is None:
+            return l1 or l2
+        
+        cursor = dummy_head = ListNode(0)
+        carry = 0
+        while l1 or l2 or carry:
+            x = l1.val if l1 else 0
+            y = l2.val if l2 else 0
+            z = x + y + carry
+            carry, remainder = divmod(z, 10)
+            cursor.next = ListNode(remainder)
+            
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+            cursor = cursor.next
+            
+        return dummy_head.next
+
+############## V1 ##############
 class Solution:
     # @return a ListNode
     def addTwoNumbers(self, l1, l2):

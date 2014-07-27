@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/swap-nodes-in-pairs/
+# tags: medium, linked-list, pointers, logic, edge cases
 
 """
 Given a linked list, swap every two adjacent nodes and return its head.
@@ -24,6 +25,37 @@ Your algorithm should use only constant space. You may not modify the values in 
 #         self.val = x
 #         self.next = None
 
+############### V2 ###############
+# handle the outgoing pointer of current pair directly
+class Solution:
+    # @param a ListNode
+    # @return a ListNode
+    def swapPairs(self, head):
+        if head is None or head.next is None:
+            return head
+        
+        pre, post = head, head.next
+        head = post
+        while post != pre:
+            # post is not None and post == pre.next
+            
+            if post.next and post.next.next:
+                pre.next = post.next.next
+            else:
+                # there is one following node or none
+                pre.next = post.next
+            
+            post.next, pre = pre, post.next
+            
+            # post could be pre if there is one
+            # following node or none
+            post = post.next.next
+        
+        return head
+
+############### V1 ###############
+# use a temp variable holding the outgoing pointer
+# of prior pair of nodes, and update it later
 class Solution:
     # @param a ListNode
     # @return a ListNode

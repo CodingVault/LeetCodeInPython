@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/sort-list/
-# tags: easy / medium, linked-list, merge sort, recursion
+# tags: easy / medium, linked-list, merge sort, D&C, recursion
 
 """
 Sort a linked list in O(n log n) time using constant space complexity.

@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/merge-k-sorted-lists/
-# tags: easy / medium, linked-list, sorted, merge, recursion
+# tags: easy / medium, linked-list, sorted, merge, D&C, recursion
 
 """
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.

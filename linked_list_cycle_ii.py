@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/linked-list-cycle-ii/
+# tags: medium, linked-list, logic
 
 """
 Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
@@ -22,6 +23,30 @@ Can you solve it without using extra space?
 #         self.val = x
 #         self.next = None
 
+############ V2 ############
+class Solution:
+    # @param head, a ListNode
+    # @return a list node
+    def detectCycle(self, head):
+        if head is None or head.next is None:
+            return
+        walker, runner = head, head
+        
+        while runner and runner.next:
+            walker = walker.next
+            runner = runner.next.next
+            if runner == walker:
+                break
+        if runner != walker:
+            return
+
+        walker = head
+        while runner != walker:
+            runner = runner.next
+            walker = walker.next
+        return walker
+
+############ V1 ############
 class Solution:
     # @param head, a ListNode
     # @return a list node

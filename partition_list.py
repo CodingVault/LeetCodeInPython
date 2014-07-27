@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/partition-list/
+# tags: medium, linked-list, pointer, dummy head
 
 """
 Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
@@ -25,6 +26,32 @@ return 1->2->2->4->3->5.
 #         self.val = x
 #         self.next = None
 
+############### better use of dummy head ###############
+class Solution:
+    # @param head, a ListNode
+    # @param x, an integer
+    # @return a ListNode
+    def partition(self, head, x):
+        # this gracefully handle the scenario
+        # where head itself is None
+        left_cursor = left_head = ListNode(0)
+        right_cursor = right_head = ListNode(0)
+        cursor = head
+        
+        while cursor:
+            if cursor.val < x:
+                left_cursor.next = cursor
+                left_cursor = cursor
+            else:
+                right_cursor.next = cursor
+                right_cursor = cursor
+            cursor = cursor.next
+        
+        left_cursor.next = right_head.next
+        right_cursor.next = None  # note: remember to set this
+        return left_head.next
+        
+############### V1 ###############
 class Solution:
     # @param head, a ListNode
     # @param x, an integer
