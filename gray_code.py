@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/gray-code/
+# tags: medium / hard, numbers, logic, recursion
 
 """
 The gray code is a binary numeral system where two successive values differ in only one bit.
