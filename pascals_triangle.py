@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/pascals-triangle/
+# tags: easy / medium, triangle, dp
 
 """
 Given numRows, generate the first numRows of Pascal's triangle.
@@ -24,6 +25,23 @@ Return
 ]
 """
 
+############ dp ############
+def triangle(n):
+    if n == 1:
+        return [[1]]
+    
+    sub_tria = triangle(n - 1)
+    last_line, new_line = sub_tria[-1], []
+    for i in range(len(last_line)):
+        if i == 0:
+            new_line.append(1)
+            continue
+        new_line.append(last_line[i] + last_line[i - 1])
+    new_line.append(1)
+    
+    return sub_tria + [new_line]
+
+############ V1 ############
 class Solution:
     # @return a list of lists of integers
     def generate(self, numRows):

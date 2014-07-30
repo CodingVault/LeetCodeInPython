@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/pascals-triangle-ii/
+# tags: easy / medium, triangle, dp
 
 """
 Given an index k, return the kth row of the Pascal's triangle.
@@ -19,6 +20,10 @@ Note:
 Could you optimize your algorithm to use only O(k) extra space?
 """
 
+############ dp ############
+# TODO
+
+############ V1 ############
 class Solution:
     # @return a list of integers
     def getRow(self, rowIndex):

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>linked_list_cycle.py</string>
+	<string>wildcard_matching.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,37 +13,49 @@
 					<key>filename</key>
 					<string>binary_tree_preorder.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-19T12:49:15Z</date>
+					<date>2014-07-29T19:27:37Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>binary_tree_inorder.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-19T12:49:16Z</date>
+					<date>2014-07-29T18:04:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>binary_tree_postorder.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-19T12:49:17Z</date>
+					<date>2014-07-29T18:04:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>binary_tree_zigzag_level_traversal.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-19T12:49:22Z</date>
+					<date>2014-07-29T18:04:51Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>binary_tree_level_order_traversal.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-29T18:04:53Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>binary_tree_level_order_traversal_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-29T18:25:34Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>balanced_binary_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-19T13:05:12Z</date>
+					<date>2014-07-29T17:06:59Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>flatten_binary_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:38:19Z</date>
+					<date>2014-07-29T17:06:54Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -59,9 +71,15 @@
 				</dict>
 				<dict>
 					<key>filename</key>
+					<string>populate_next_right_pointers.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-28T05:21:24Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
 					<string>populate_next_right_pointers_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:54:08Z</date>
+					<date>2014-07-28T06:16:29Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -85,13 +103,13 @@
 					<key>filename</key>
 					<string>unique_binary_search_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T17:49:58Z</date>
+					<date>2014-07-28T21:41:10Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>unique_binary_search_tree_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T18:48:48Z</date>
+					<date>2014-07-28T21:50:39Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -127,7 +145,7 @@
 					<key>filename</key>
 					<string>binary_tree_maximum_path_sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T07:19:51Z</date>
+					<date>2014-07-30T00:09:27Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -142,9 +160,7 @@
 					<key>filename</key>
 					<string>linked_list_cycle.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-27T07:37:12Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2014-07-27T20:53:47Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -339,13 +355,13 @@
 					<key>filename</key>
 					<string>combination_sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T05:24:17Z</date>
+					<date>2014-07-28T22:09:32Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>combination_sum_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T06:55:04Z</date>
+					<date>2014-07-29T01:17:37Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -402,7 +418,7 @@
 							<key>filename</key>
 							<string>longest_valid_parentheses.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-27T07:30:29Z</date>
+							<date>2014-07-29T01:28:46Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -423,7 +439,7 @@
 							<key>filename</key>
 							<string>set_matrix_zeros.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-23T23:35:14Z</date>
+							<date>2014-07-28T05:00:39Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -449,6 +465,48 @@
 							<key>lastUsed</key>
 							<date>2014-07-24T20:39:39Z</date>
 						</dict>
+						<dict>
+							<key>filename</key>
+							<string>rotate_image.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-30T05:03:57Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>spiral_matrix.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-28T01:58:09Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>spiral_matrix_ii.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-28T04:52:27Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>valid_sudoku.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-28T06:19:07Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>unique_path.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-28T21:40:55Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>unique_path_ii.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-28T21:27:33Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>minimum_path_sum.py</string>
+							<key>lastUsed</key>
+							<date>2014-07-28T21:27:28Z</date>
+						</dict>
 					</array>
 					<key>expanded</key>
 					<true/>
@@ -462,13 +520,13 @@
 							<key>filename</key>
 							<string>pascals_triangle.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-15T21:52:39Z</date>
+							<date>2014-07-28T22:00:59Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>pascals_triangle_ii.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-15T21:52:40Z</date>
+							<date>2014-07-28T22:08:48Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -537,103 +595,133 @@
 					<key>filename</key>
 					<string>word_break.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:45:32Z</date>
+					<date>2014-07-30T05:12:14Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>word_break_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:45:49Z</date>
+					<date>2014-07-30T05:12:15Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>word_search.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T21:12:35Z</date>
+					<date>2014-07-30T05:12:17Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>word_ladder.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:45:57Z</date>
+					<date>2014-07-30T16:02:08Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>word_ladder_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T19:32:29Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>palindrome_partition.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T00:14:06Z</date>
+					<date>2014-07-30T04:45:59Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>palindrome_patition_ii.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T05:02:04Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>valid_palindrome.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-09T03:51:35Z</date>
+					<date>2014-07-29T01:21:40Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>interleave_string.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T21:58:59Z</date>
+					<date>2014-07-30T00:06:39Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>restore_ip_address.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-21T01:36:02Z</date>
+					<date>2014-07-28T17:22:13Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>minimal_window_string.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:58:48Z</date>
+					<date>2014-07-28T17:22:17Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>substring_with_concatenation.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T06:32:37Z</date>
+					<date>2014-07-28T17:22:18Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>longest_substring_without_repeating_chars.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T05:18:21Z</date>
+					<date>2014-07-29T01:21:41Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>longest_common_prefix.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T03:11:27Z</date>
+					<date>2014-07-29T01:22:36Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>longest_palindrome_substring.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T05:15:24Z</date>
+					<date>2014-07-29T01:21:34Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>zigzag_conversion.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:22:35Z</date>
+					<date>2014-07-28T17:22:26Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>length_of_last_word.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T05:15:30Z</date>
+					<date>2014-07-28T17:22:27Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>scramble_string.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T04:11:37Z</date>
+					<date>2014-07-28T17:22:36Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>anagrams.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-22T18:38:40Z</date>
+					<date>2014-07-28T17:22:53Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>strStr.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-29T01:21:23Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>edit_distance.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-29T06:58:23Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>distinct_subsequences.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-29T17:05:47Z</date>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -642,13 +730,15 @@
 							<key>filename</key>
 							<string>wildcard_matching.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-21T07:08:42Z</date>
+							<date>2014-07-30T19:32:29Z</date>
+							<key>selected</key>
+							<true/>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>regex_matching.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-22T18:09:54Z</date>
+							<date>2014-07-29T01:18:04Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -681,109 +771,139 @@
 					<key>filename</key>
 					<string>gray_code.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:04:30Z</date>
+					<date>2014-07-28T04:52:23Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>palindrome_number.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:39:10Z</date>
+					<date>2014-07-30T00:13:16Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>sqrt.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-25T20:06:23Z</date>
+					<date>2014-07-30T00:13:12Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>plus_one.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:39:01Z</date>
+					<date>2014-07-30T00:13:11Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>add_binary.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:38:44Z</date>
+					<date>2014-07-30T00:12:53Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>add_two_numbers.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T22:04:15Z</date>
+					<date>2014-07-30T00:12:46Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>pow.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:38:51Z</date>
+					<date>2014-07-30T00:12:45Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>permutations_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:52Z</date>
+					<date>2014-07-30T00:12:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>permutations.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:41:11Z</date>
+					<date>2014-07-30T00:12:42Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>2sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:39:09Z</date>
+					<date>2014-07-30T00:12:37Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>3sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:39:06Z</date>
+					<date>2014-07-30T00:12:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>3sum_closest.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-25T20:13:13Z</date>
+					<date>2014-07-30T00:12:36Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>4sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-26T21:39:09Z</date>
+					<date>2014-07-30T00:12:32Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>reverse_integer.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:30Z</date>
+					<date>2014-07-30T00:12:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>subsets.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:19Z</date>
+					<date>2014-07-30T00:12:13Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>subsets_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:18Z</date>
+					<date>2014-07-30T00:12:12Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>letter_combinations_of_phone_num.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:39:04Z</date>
+					<date>2014-07-30T00:12:11Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>divide_two_integers.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T23:38:52Z</date>
+					<date>2014-07-30T00:12:10Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>integer_to_roman.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T00:12:10Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>roman_to_integer.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T00:12:09Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>count_and_say.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T00:12:08Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>multiply_strings.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T00:12:07Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>decode_ways.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T00:12:06Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -798,31 +918,37 @@
 					<key>filename</key>
 					<string>sorted_list_to_binary_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T17:15:28Z</date>
+					<date>2014-07-30T00:12:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>sorted_array_to_binary_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-20T01:30:22Z</date>
+					<date>2014-07-30T00:12:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>combinations.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-19T15:59:49Z</date>
+					<date>2014-07-30T00:12:01Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>clone_graph.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-22T18:58:35Z</date>
+					<date>2014-07-30T00:12:03Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>permutation_sequence.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-15T22:12:32Z</date>
+					<date>2014-07-30T00:12:05Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>generate_parentheses.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-30T00:11:44Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -853,6 +979,12 @@
 					<string>LRU_cache.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-17T04:22:07Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>gas_station.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-29T23:17:38Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -1073,19 +1205,47 @@
 			<key>firstVisibleLine</key>
 			<integer>4</integer>
 		</dict>
+		<key>binary_tree_level_order_traversal.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>30</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>10</integer>
+		</dict>
+		<key>binary_tree_level_order_traversal_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>96</integer>
+				<key>line</key>
+				<integer>30</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>binary_tree_maximum_path_sum.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>48</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>28</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>18</integer>
+			<integer>0</integer>
 		</dict>
 		<key>binary_tree_postorder.py</key>
 		<dict>
@@ -1106,9 +1266,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>34</integer>
+				<integer>26</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>31</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1120,9 +1280,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>36</integer>
 				<key>line</key>
-				<integer>32</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1169,46 +1329,30 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>4</integer>
+			<integer>0</integer>
 		</dict>
 		<key>combination_sum.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>43</integer>
 				<key>line</key>
 				<integer>10</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>55</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
 		</dict>
 		<key>combination_sum_ii.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>87</integer>
+				<integer>43</integer>
 				<key>line</key>
-				<integer>29</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1285,6 +1429,48 @@
 			<key>firstVisibleLine</key>
 			<integer>51</integer>
 		</dict>
+		<key>count_and_say.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>41</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>decode_ways.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>24</integer>
+				<key>line</key>
+				<integer>29</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>distinct_subsequences.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>45</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>divide_two_integers.py</key>
 		<dict>
 			<key>caret</key>
@@ -1293,6 +1479,20 @@
 				<integer>49</integer>
 				<key>line</key>
 				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>edit_distance.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>42</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1341,14 +1541,42 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>gas_station.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>29</integer>
+				<key>line</key>
+				<integer>40</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>generate_parentheses.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>gray_code.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>39</integer>
+				<integer>48</integer>
 				<key>line</key>
-				<integer>41</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1383,19 +1611,33 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>interleave_string.py</key>
+		<key>integer_to_roman.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>23</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>interleave_string.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>25</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
 		</dict>
 		<key>jump_game.py</key>
 		<dict>
@@ -1472,9 +1714,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>54</integer>
+				<integer>24</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1528,9 +1770,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>16</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1556,9 +1798,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>57</integer>
+				<integer>18</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1689,7 +1931,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>14</integer>
+			<integer>0</integer>
 		</dict>
 		<key>minimum_depth_of_binary_tree.py</key>
 		<dict>
@@ -1699,6 +1941,50 @@
 				<integer>20</integer>
 				<key>line</key>
 				<integer>64</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>minimum_path_sum.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+		</dict>
+		<key>multiply_strings.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>66</integer>
+				<key>line</key>
+				<integer>29</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1761,6 +2047,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>palindrome_patition_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>34</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>partition_list.py</key>
 		<dict>
 			<key>caret</key>
@@ -1780,23 +2080,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>28</integer>
+				<integer>32</integer>
 				<key>line</key>
-				<integer>39</integer>
+				<integer>41</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>12</integer>
 		</dict>
 		<key>pascals_triangle_ii.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>39</integer>
+				<integer>23</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1843,7 +2143,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>24</integer>
+			<integer>0</integer>
 		</dict>
 		<key>permutations.py</key>
 		<dict>
@@ -1887,19 +2187,33 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>populate_next_right_pointers_ii.py</key>
+		<key>populate_next_right_pointers.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>40</integer>
 				<key>line</key>
-				<integer>31</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>populate_next_right_pointers_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>36</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>33</integer>
 		</dict>
 		<key>pow.py</key>
 		<dict>
@@ -2097,6 +2411,34 @@
 			<key>firstVisibleLine</key>
 			<integer>1</integer>
 		</dict>
+		<key>roman_to_integer.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>rotate_image.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>42</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>rotate_list.py</key>
 		<dict>
 			<key>caret</key>
@@ -2137,7 +2479,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>17</integer>
+			<integer>0</integer>
 		</dict>
 		<key>search_for_range.py</key>
 		<dict>
@@ -2214,14 +2556,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>80</integer>
+				<integer>39</integer>
 				<key>line</key>
-				<integer>23</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>simplify_path.py</key>
 		<dict>
@@ -2321,6 +2663,34 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>spiral_matrix.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>49</integer>
+				<key>line</key>
+				<integer>27</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>spiral_matrix_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>54</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>sqrt.py</key>
 		<dict>
 			<key>caret</key>
@@ -2329,6 +2699,20 @@
 				<integer>38</integer>
 				<key>line</key>
 				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>strStr.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>72</integer>
+				<key>line</key>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2466,9 +2850,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>68</integer>
+				<integer>34</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2480,9 +2864,37 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>41</integer>
+				<integer>18</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>33</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>1</integer>
+		</dict>
+		<key>unique_path.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>27</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>unique_path_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>32</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2494,9 +2906,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>48</integer>
 				<key>line</key>
-				<integer>34</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2511,6 +2923,20 @@
 				<integer>25</integer>
 				<key>line</key>
 				<integer>33</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>valid_sudoku.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>55</integer>
+				<key>line</key>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2564,7 +2990,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>44</integer>
+				<integer>12</integer>
 				<key>line</key>
 				<integer>41</integer>
 			</dict>
@@ -2578,9 +3004,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>8</integer>
+				<integer>33</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>15</integer>
+		</dict>
+		<key>word_ladder_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>60</integer>
+				<key>line</key>
+				<integer>35</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2599,7 +3039,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>13</integer>
+			<integer>0</integer>
 		</dict>
 		<key>zigzag_conversion.py</key>
 		<dict>
@@ -2626,10 +3066,16 @@
 		<string>search_in_rotated_array_ii.py</string>
 		<string>valid_palindrome.py</string>
 		<string>word_ladder.py</string>
+		<string>word_ladder_ii.py</string>
 		<string>palindrome_partition.py</string>
+		<string>palindrome_patition_ii.py</string>
 		<string>surrounded_regions.py</string>
 		<string>sum_root_to_leaf_numbers.py</string>
 		<string>longest_valid_parentheses.py</string>
+		<string>edit_distance.py</string>
+		<string>distinct_subsequences.py</string>
+		<string>binary_tree_level_order_traversal.py</string>
+		<string>binary_tree_level_order_traversal_ii.py</string>
 		<string>sort_colors.py</string>
 		<string>largest_rectangle_in_histogram.py</string>
 		<string>word_search.py</string>
@@ -2673,6 +3119,14 @@
 		<string>permutations.py</string>
 		<string>palindrome_number.py</string>
 		<string>regex_matching.py</string>
+		<string>generate_parentheses.py</string>
+		<string>unique_path.py</string>
+		<string>minimum_path_sum.py</string>
+		<string>unique_path_ii.py</string>
+		<string>roman_to_integer.py</string>
+		<string>rotate_image.py</string>
+		<string>spiral_matrix.py</string>
+		<string>spiral_matrix_ii.py</string>
 		<string>first_missing_positive.py</string>
 		<string>substring_with_concatenation.py</string>
 		<string>next_permutation.py</string>
@@ -2692,6 +3146,10 @@
 		<string>flatten_binary_tree.py</string>
 		<string>path_sum.py</string>
 		<string>populate_next_right_pointers_ii.py</string>
+		<string>valid_sudoku.py</string>
+		<string>count_and_say.py</string>
+		<string>multiply_strings.py</string>
+		<string>populate_next_right_pointers.py</string>
 		<string>pascals_triangle.py</string>
 		<string>pascals_triangle_ii.py</string>
 		<string>triangle.py</string>
@@ -2717,6 +3175,7 @@
 		<string>length_of_last_word.py</string>
 		<string>combination_sum.py</string>
 		<string>combination_sum_ii.py</string>
+		<string>strStr.py</string>
 		<string>binary_tree_maximum_path_sum.py</string>
 		<string>gray_code.py</string>
 		<string>partition_list.py</string>
@@ -2731,8 +3190,11 @@
 		<string>reverse_integer.py</string>
 		<string>validate_binary_search_tree.py</string>
 		<string>binary_tree_preorder.py</string>
+		<string>gas_station.py</string>
+		<string>decode_ways.py</string>
 		<string>binary_tree_inorder.py</string>
 		<string>linked_list_cycle.py</string>
+		<string>integer_to_roman.py</string>
 		<string>reverse_linked_list_ii.py</string>
 		<string>remove_nth_node_from_end_of_list.py</string>
 		<string>copy_list_with_random_pointer.py</string>

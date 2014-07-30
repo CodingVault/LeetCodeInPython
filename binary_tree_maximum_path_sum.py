@@ -26,6 +26,8 @@ Return 6.
 
 # https://oj.leetcode.com/discuss/6253/whats-wrong-with-binary-tree-maximum-path-sum-solution-python
 
+# TODO: try D&C
+
 # TODO: it's likely there is unnecessary steps -- instead of passing
 #   ancestor sum down, only compare max path sum upward.
 #   Currently, the algo will get the max value passing through each node.

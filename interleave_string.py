@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/interleaving-string/
+# tags: hard, string, stack, dp
 
 """
 Given s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.
@@ -23,11 +24,9 @@ When s3 = "aadbbbaccc", return false.
 
 # TODO: try to use memorized DP
 
-
 class Solution:
     # @return a boolean
     def isInterleave(self, s1, s2, s3):
-        
         if len(s3) != len(s1) + len(s2):
             return False
         if s1 == s3 or s2 == s3:
@@ -64,8 +63,12 @@ class Solution:
                 # trying to increase i1 first anyway
                 i1 += 1
             elif i2 < len(s2) and s3[i3] == s2[i2]:
+                # s3[i3] == s2[i2] != s1[i1]
                 i2 += 1
             elif stack:
+                # s3[i3] != s1[i1] and s3[i3] != s2[i2], try
+                # to restore previous state where
+                # s3[i3] == s1[i1] == s2[i2], if any
                 i1, i2, i3 = stack.pop()
                 # increasing i1 has been tried, now trying i2
                 i2 += 1

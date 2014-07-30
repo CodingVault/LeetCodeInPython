@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/unique-binary-search-trees-ii/
-# medium, tree, bst, recursion, generator
+# medium, tree, bst, recursion, dp, generator
 
 """
 Given n, generate all structurally unique BST's (binary search trees) that store values 1...n.
