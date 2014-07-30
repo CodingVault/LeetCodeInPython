@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/word-ladder/
+# tags: medium, string, bfs, word
 
 """
 Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end, such that:
@@ -32,9 +33,9 @@ All words contain only lowercase alphabetic characters.
 class Solution:
     # @param start, a string
     # @param end, a string
-    # @param dict, a set of string
+    # @param dictionary, a set of string
     # @return an integer
-    def ladderLength(self, start, end, dict):
+    def ladderLength(self, start, end, dictionary):
         """
         Performance note:
          - use set instead of list for `visited`
@@ -64,8 +65,8 @@ class Solution:
                     new_word = word[:i] + char + word[i + 1:]
                     if new_word == end:
                         return distance
-                    if new_word in dict and new_word not in visited:
+                    if new_word in dictionary and new_word not in visited:
                         bfs.append(new_word)
                         visited.add(new_word)
-    
+        
         return 0
