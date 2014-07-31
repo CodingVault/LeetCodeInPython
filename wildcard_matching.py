@@ -65,7 +65,7 @@ class Solution:
         s_length = len(s)
         p_length = len(p)
         
-        def match(s_i, p_i):
+        def not_match(s_i, p_i):
             """0: match, 1: plain string not match, 2: terminate"""
             if p_length == p_i:
                 return 0 if s_length == s_i else 1
@@ -82,15 +82,16 @@ class Solution:
             
             if p_i + index < p_length and p[p_i + index] == '*':
                 # p[p_i + index] == '*' matches 0 or 1 char in s
-                result = match(s_i + index, p_i + index + 1)
+                result = not_match(s_i + index, p_i + index + 1)
                 
-                # note: if '*' matches 1 char in s, len(s[s_i:]) must be > 1
+                # note: if '*' matches 1 char in s, len(s[s_i:]) must be >= 1
                 if result == 1 and s_length > s_i:
-                    result = match(s_i + index + 1, p_i + index)
+                    # since p[p_i + index] starts with "*", it returns 0 or 2
+                    result = not_match(s_i + index + 1, p_i + index)
                 
                 # terminate if no match for p[p_i:] starting with "*";
                 #   it cannot match any part in s anyway
-                return 0 if result == 0 else 2
+                return result
             
             # p_i + index == len(p) or p[p_i + index] != ('*' or s[s_i + index]);
             # only if index == len(s[s_i:]) == len(p[p_i:]), p and s match
@@ -108,7 +109,7 @@ class Solution:
             # recursion continue to try wildcard matching if any
             return 1
         
-        return True if match(0, 0) == 0 else False
+        return not not_match
 
 
 ############# cached with indices only #############
