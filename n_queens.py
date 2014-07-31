@@ -62,7 +62,7 @@ class Solution:
                 line[index] = 'Q'
                 for each in search(
                         board + [''.join(line)], depth - 1, vertical_taken + pos,
-                        (left_taken + pos) << 1, (right_taken + pos) >> 1):
+                        left_taken + pos << 1, right_taken + pos >> 1):
                     yield each
                 line[index] = '.'
         
