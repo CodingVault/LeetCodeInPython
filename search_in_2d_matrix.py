@@ -3,8 +3,7 @@
 """
 search_in_2d_matrix.py
 
-Created by  on 2014-07-24.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-24.
 """
 
 # https://oj.leetcode.com/problems/search-a-2d-matrix/

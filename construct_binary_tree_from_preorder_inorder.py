@@ -3,8 +3,7 @@
 """
 construct_binary_tree_from_preorder_inorder.py
 
-Created by  on 2014-07-20.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-20.
 """
 
 # https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/

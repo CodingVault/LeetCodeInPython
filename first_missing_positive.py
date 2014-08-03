@@ -3,8 +3,7 @@
 """
 first_missing_positive.py
 
-Created by  on 2014-07-10.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-10.
 """
 
 # https://oj.leetcode.com/problems/first-missing-positive/

@@ -3,8 +3,7 @@
 """
 best_time_to_buy_and_sell_stock_ii.py
 
-Created by  on 2014-07-22.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-22.
 """
 
 # https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/

@@ -3,8 +3,7 @@
 """
 swap_nodes_in_pairs.py
 
-Created by  on 2014-07-08.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-08.
 """
 
 # https://oj.leetcode.com/problems/swap-nodes-in-pairs/

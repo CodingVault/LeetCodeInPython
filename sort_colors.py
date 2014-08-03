@@ -3,8 +3,7 @@
 """
 sort_colors.py
 
-Created by  on 2014-07-23.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-23.
 """
 
 # https://oj.leetcode.com/problems/sort-colors/

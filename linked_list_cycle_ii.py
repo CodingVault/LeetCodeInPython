@@ -3,8 +3,7 @@
 """
 linked_list_cycle_ii.py
 
-Created by  on 2014-06-30.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-06-30.
 """
 
 # https://oj.leetcode.com/problems/linked-list-cycle-ii/

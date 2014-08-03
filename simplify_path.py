@@ -3,8 +3,7 @@
 """
 simplify_path.py
 
-Created by  on 2014-07-24.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-24.
 """
 
 # https://oj.leetcode.com/problems/simplify-path/

@@ -3,8 +3,7 @@
 """
 maximal_rectangle.py
 
-Created by  on 2014-07-05; first implemented on 2014-07-22.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-05; first implemented on 2014-07-22.
 """
 
 # https://oj.leetcode.com/problems/maximal-rectangle/

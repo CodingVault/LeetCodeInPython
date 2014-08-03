@@ -3,8 +3,7 @@
 """
 wildcard_matching.py
 
-Created by  on 2014-07-09; implemented on 2014-07-30.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-09; implemented on 2014-07-30.
 """
 
 # https://oj.leetcode.com/problems/wildcard-matching/

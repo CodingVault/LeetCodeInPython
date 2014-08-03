@@ -3,8 +3,7 @@
 """
 longest_palindrome_substring.py
 
-Created by  on 2014-07-16; updated on 2014-07-31.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-16; updated on 2014-07-31.
 """
 
 # https://oj.leetcode.com/problems/longest-palindromic-substring/

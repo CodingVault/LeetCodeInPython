@@ -3,8 +3,7 @@
 """
 remove_dups_from_sorted_array.py
 
-Created by  on 2014-07-06.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-06.
 """
 
 # https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/

@@ -3,8 +3,7 @@
 """
 permutation_sequence.py
 
-Created by  on 2014-07-15.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by Shengwei on 2014-07-15.
 """
 
 # https://oj.leetcode.com/problems/permutation-sequence/
