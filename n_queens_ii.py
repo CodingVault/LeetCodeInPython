@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/n-queens-ii/
-# tags: medium / hard, matrix, bit manipulation, generator, dfs
+# tags: medium / hard, matrix, bit manipulation, generator, dfs, bitmap
 
 """
 Follow up for N-Queens problem.

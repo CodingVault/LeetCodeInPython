@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/valid-sudoku/
-# tags: medium, matrix, sudoku, bit manipulation
+# tags: medium, matrix, sudoku, bit manipulation, bitmap
 
 """
 Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules (http://sudoku.com.au/TheRules.aspx).

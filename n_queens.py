@@ -8,7 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/n-queens/
-# tags: medim / hard, matrix, bit manipulation, generator, dfs, edge cases
+# tags: medim / hard, matrix, bit manipulation, generator, dfs, edge cases, bitmap
 
 """
 The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
