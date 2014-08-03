@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/permutations/
+# tags: medium, numbers, permutation, dp, recursion
 
 """
 Given a collection of numbers, return all possible permutations.

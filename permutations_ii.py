@@ -8,6 +8,7 @@ Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 """
 
 # https://oj.leetcode.com/problems/permutations-ii/
+# tags: medium / hard, numbers, permutation, dp, recursion
 
 """
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
