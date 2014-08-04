@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>wildcard_matching.py</string>
+	<string>max_points_on_a_line.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,13 +13,13 @@
 					<key>filename</key>
 					<string>binary_tree_preorder.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-29T19:27:37Z</date>
+					<date>2014-07-31T06:43:58Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>binary_tree_inorder.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-29T18:04:48Z</date>
+					<date>2014-07-31T07:42:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -103,7 +103,7 @@
 					<key>filename</key>
 					<string>unique_binary_search_tree.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-28T21:41:10Z</date>
+					<date>2014-07-31T01:52:14Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -145,7 +145,13 @@
 					<key>filename</key>
 					<string>binary_tree_maximum_path_sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T00:09:27Z</date>
+					<date>2014-07-31T03:09:44Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>recover_binary_search_tree.py</string>
+					<key>lastUsed</key>
+					<date>2014-07-31T17:10:18Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -275,15 +281,9 @@
 				</dict>
 				<dict>
 					<key>filename</key>
-					<string>next_permutation.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-27T07:36:21Z</date>
-				</dict>
-				<dict>
-					<key>filename</key>
 					<string>first_missing_positive.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-27T07:36:51Z</date>
+					<date>2014-07-31T06:43:47Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -313,7 +313,7 @@
 					<key>filename</key>
 					<string>search_in_rotated_array_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-27T07:37:12Z</date>
+					<date>2014-07-31T06:43:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -325,7 +325,7 @@
 					<key>filename</key>
 					<string>best_time_to_buy_and_sell_stock_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-23T00:54:31Z</date>
+					<date>2014-07-31T06:43:46Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -343,13 +343,13 @@
 					<key>filename</key>
 					<string>remove_element.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-24T00:32:54Z</date>
+					<date>2014-07-31T06:43:42Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>median_of_two_sorted_arrays.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-25T06:17:47Z</date>
+					<date>2014-07-31T06:43:35Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -361,7 +361,7 @@
 					<key>filename</key>
 					<string>combination_sum_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-29T01:17:37Z</date>
+					<date>2014-07-31T06:43:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -445,7 +445,7 @@
 							<key>filename</key>
 							<string>surrounded_regions.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-24T18:58:43Z</date>
+							<date>2014-07-31T06:43:34Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -457,7 +457,13 @@
 							<key>filename</key>
 							<string>n_queens.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-23T23:39:16Z</date>
+							<date>2014-08-03T17:59:14Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>n_queens_ii.py</string>
+							<key>lastUsed</key>
+							<date>2014-08-03T17:59:09Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -469,7 +475,7 @@
 							<key>filename</key>
 							<string>rotate_image.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-30T05:03:57Z</date>
+							<date>2014-08-03T17:59:16Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -481,31 +487,37 @@
 							<key>filename</key>
 							<string>spiral_matrix_ii.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-28T04:52:27Z</date>
+							<date>2014-08-03T17:59:17Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>valid_sudoku.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-28T06:19:07Z</date>
+							<date>2014-08-03T17:59:16Z</date>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>sudoku_solver.py</string>
+							<key>lastUsed</key>
+							<date>2014-08-03T23:40:33Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>unique_path.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-28T21:40:55Z</date>
+							<date>2014-08-03T06:16:30Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>unique_path_ii.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-28T21:27:33Z</date>
+							<date>2014-08-03T06:16:30Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>minimum_path_sum.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-28T21:27:28Z</date>
+							<date>2014-08-03T06:16:32Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -619,7 +631,7 @@
 					<key>filename</key>
 					<string>word_ladder_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T19:32:29Z</date>
+					<date>2014-07-30T20:47:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -679,7 +691,7 @@
 					<key>filename</key>
 					<string>longest_palindrome_substring.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-29T01:21:34Z</date>
+					<date>2014-08-01T18:02:40Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -721,7 +733,13 @@
 					<key>filename</key>
 					<string>distinct_subsequences.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-29T17:05:47Z</date>
+					<date>2014-08-03T23:50:14Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>text_justification.py</string>
+					<key>lastUsed</key>
+					<date>2014-08-03T23:57:38Z</date>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -730,15 +748,13 @@
 							<key>filename</key>
 							<string>wildcard_matching.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-30T19:32:29Z</date>
-							<key>selected</key>
-							<true/>
+							<date>2014-07-31T06:14:41Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>regex_matching.py</string>
 							<key>lastUsed</key>
-							<date>2014-07-29T01:18:04Z</date>
+							<date>2014-07-30T20:46:31Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -807,25 +823,31 @@
 					<key>filename</key>
 					<string>pow.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T00:12:45Z</date>
+					<date>2014-08-01T18:02:55Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>permutations_ii.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T00:12:44Z</date>
+					<date>2014-08-01T18:07:01Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>permutations.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T00:12:42Z</date>
+					<date>2014-08-01T18:06:22Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>next_permutation.py</string>
+					<key>lastUsed</key>
+					<date>2014-08-01T18:13:03Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>2sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T00:12:37Z</date>
+					<date>2014-08-01T18:02:44Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -843,7 +865,7 @@
 					<key>filename</key>
 					<string>4sum.py</string>
 					<key>lastUsed</key>
-					<date>2014-07-30T00:12:32Z</date>
+					<date>2014-07-31T22:11:46Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -905,6 +927,24 @@
 					<key>lastUsed</key>
 					<date>2014-07-30T00:12:06Z</date>
 				</dict>
+				<dict>
+					<key>filename</key>
+					<string>valid_number.py</string>
+					<key>lastUsed</key>
+					<date>2014-08-04T00:13:09Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>string_to_integer_atoi.py</string>
+					<key>lastUsed</key>
+					<date>2014-08-04T04:31:28Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>climb_stairs.py</string>
+					<key>lastUsed</key>
+					<date>2014-08-04T05:27:45Z</date>
+				</dict>
 			</array>
 			<key>expanded</key>
 			<true/>
@@ -961,21 +1001,6 @@
 			<array>
 				<dict>
 					<key>filename</key>
-					<string>climb_stairs.py</string>
-					<key>lastUsed</key>
-					<date>2014-07-15T21:46:20Z</date>
-				</dict>
-			</array>
-			<key>expanded</key>
-			<true/>
-			<key>name</key>
-			<string>DP</string>
-		</dict>
-		<dict>
-			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
 					<string>LRU_cache.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-17T04:22:07Z</date>
@@ -985,6 +1010,14 @@
 					<string>gas_station.py</string>
 					<key>lastUsed</key>
 					<date>2014-07-29T23:17:38Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>max_points_on_a_line.py</string>
+					<key>lastUsed</key>
+					<date>2014-08-04T05:27:45Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -1056,9 +1089,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>47</integer>
+				<integer>43</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1308,9 +1341,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>33</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1464,7 +1497,7 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>45</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1770,9 +1803,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>22</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>22</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1801,6 +1834,20 @@
 				<integer>18</integer>
 				<key>line</key>
 				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>max_points_on_a_line.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>97</integer>
+				<key>line</key>
+				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -1996,23 +2043,37 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>63</integer>
+				<integer>82</integer>
 				<key>line</key>
 				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>0</integer>
+		</dict>
+		<key>n_queens_ii.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>71</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>next_permutation.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>40</integer>
+				<integer>52</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2150,9 +2211,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>25</integer>
+				<integer>51</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2164,9 +2225,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>25</integer>
+				<integer>58</integer>
 				<key>line</key>
-				<integer>39</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2237,6 +2298,20 @@
 				<integer>58</integer>
 				<key>line</key>
 				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>recover_binary_search_tree.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>55</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2682,9 +2757,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>50</integer>
 				<key>line</key>
-				<integer>54</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2718,6 +2793,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>string_to_integer_atoi.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>64</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
 		</dict>
 		<key>subsets.py</key>
 		<dict>
@@ -2761,6 +2850,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>sudoku_solver.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>sum_root_to_leaf_numbers.py</key>
 		<dict>
 			<key>caret</key>
@@ -2787,7 +2890,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>9</integer>
+			<integer>0</integer>
 		</dict>
 		<key>swap_nodes_in_pairs.py</key>
 		<dict>
@@ -2816,6 +2919,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>7</integer>
+		</dict>
+		<key>text_justification.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>trap_rain_water.py</key>
 		<dict>
@@ -2901,6 +3018,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>valid_number.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>50</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>valid_palindrome.py</key>
 		<dict>
 			<key>caret</key>
@@ -2934,9 +3065,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>55</integer>
+				<integer>56</integer>
 				<key>line</key>
-				<integer>21</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -2962,14 +3093,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>52</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>16</integer>
 		</dict>
 		<key>word_break.py</key>
 		<dict>
@@ -3025,7 +3156,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>50</integer>
 		</dict>
 		<key>word_search.py</key>
 		<dict>
@@ -3093,6 +3224,7 @@
 		<string>4sum.py</string>
 		<string>swap_nodes_in_pairs.py</string>
 		<string>wildcard_matching.py</string>
+		<string>recover_binary_search_tree.py</string>
 		<string>container_with_most_water.py</string>
 		<string>maximum_subarray.py</string>
 		<string>median_of_two_sorted_arrays.py</string>
@@ -3130,6 +3262,11 @@
 		<string>first_missing_positive.py</string>
 		<string>substring_with_concatenation.py</string>
 		<string>next_permutation.py</string>
+		<string>valid_number.py</string>
+		<string>string_to_integer_atoi.py</string>
+		<string>max_points_on_a_line.py</string>
+		<string>sudoku_solver.py</string>
+		<string>text_justification.py</string>
 		<string>merge_intervals.py</string>
 		<string>insert_intervals.py</string>
 		<string>valid_parentheses.py</string>
@@ -3193,6 +3330,7 @@
 		<string>gas_station.py</string>
 		<string>decode_ways.py</string>
 		<string>binary_tree_inorder.py</string>
+		<string>n_queens_ii.py</string>
 		<string>linked_list_cycle.py</string>
 		<string>integer_to_roman.py</string>
 		<string>reverse_linked_list_ii.py</string>
