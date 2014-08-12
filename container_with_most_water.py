@@ -39,3 +39,45 @@ class Solution:
                 end -= 1
         
         return max_area
+
+
+############ DP ############
+
+class Solution:
+    # @return an integer
+    def maxArea(self, heights):
+        if len(heights) < 1:
+            return 0
+
+        rest = heights[:-1]
+        max_area = self.maxArea(rest)
+        for i, height in enumerate(rest):
+
+            distance = len(heights) - 1 - i
+            area = min(height, heights[-1]) * distance
+            max_area = max(max_area, area)
+
+            if height > heights[-1]:
+                break
+
+        return max_area
+
+# Tail recursion
+class Solution:
+    # @return an integer
+    def maxArea(self, heights, current_max=0):
+        if len(heights) < 1:
+            return current_max
+
+        rest = heights[:-1]
+        max_area = current_max
+        for i, height in enumerate(rest):
+
+            distance = len(heights) - 1 - i
+            area = min(height, heights[-1]) * distance
+            max_area = max(max_area, area)
+
+            if height > heights[-1]:
+                break
+
+        return self.maxArea(rest, max_area)
