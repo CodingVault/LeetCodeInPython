@@ -24,6 +24,7 @@ Note: It is intended for the problem statement to be ambiguous. You should gathe
 # https://oj.leetcode.com/discuss/5358/share-my-ac-code
 
 # TODO: try regex
+# note: --1 is a valid number in Python and it's 1
 
 class Solution:
     # @param s, a string

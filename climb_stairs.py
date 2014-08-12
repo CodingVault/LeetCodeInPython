@@ -7,6 +7,7 @@ Created by Shengwei on 2014-07-06.
 """
 
 # https://oj.leetcode.com/problems/climbing-stairs/
+# tags: medium, numbers, dp, recursion
 
 """
 You are climbing a stair case. It takes n steps to reach to the top.

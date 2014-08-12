@@ -37,8 +37,7 @@ class Solution:
             ways = 0
             
             single = int(s[index])
-            if single > 0 and single < 10:
-                # alternative: single in range(1, 10)
+            if single != 0:
                 ways += cache[index - 1] if index > 0 else 1
             
             if index > 0:
@@ -61,7 +60,7 @@ class Solution:
             return 0
         
         ways = 0
-        if int(s[0]) > 0 and int(s[0]) < 27:
+        if int(s[0]) != 0:
             if s[1:] == '': return 1
             ways += self.numDecodings(s[1:])
         if int(s[:2]) > 9 and int(s[:2]) < 27:

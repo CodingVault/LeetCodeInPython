@@ -17,7 +17,7 @@ Given [1,3],[2,6],[8,10],[15,18],
 return [1,6],[8,10],[15,18].
 """
 
-# ttps://gist.github.com/senvey/772e0afd345934cee475
+# https://gist.github.com/senvey/772e0afd345934cee475
 
 # Definition for an interval.
 # class Interval:

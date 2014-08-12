@@ -25,6 +25,8 @@ This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
 
 # https://gist.github.com/senvey/772e0afd345934cee475
 
+# note: sorting isn't actually required
+
 # Definition for an interval.
 # class Interval:
 #     def __init__(self, s=0, e=0):

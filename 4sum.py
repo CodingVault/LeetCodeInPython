@@ -69,7 +69,7 @@ class Solution:
                         result.add(tuple(
                            sub_sums[remainder]  + [nums[c], nums[d]]))
         
-        return list(map(list, result))
+        return map(list, result)
 
 # slight variation below but it's slower
 
@@ -90,9 +90,10 @@ class Solution:
                     for half in sub_sums[remainder]:
                         result.add(tuple(half  + [nums[cursor], nums[i]]))
         
-        return list(map(list, result))
+        return map(list, result)
 
 # optimized two sum version with about same running time
+# 10 loops, best of 3: 190 ms per loop
 
 class Solution:
     # @return a list of lists of length 4, [[val1,val2,val3,val4]]
@@ -131,6 +132,7 @@ class Solution:
 
 ############ faster two sum O(n^3) ############
 # using `set` instead of control dups manually
+# 1 loops, best of 3: 189 ms per loop
 
 class Solution:
     # @return a list of lists of length 4, [[val1,val2,val3,val4]]
@@ -165,7 +167,7 @@ class Solution:
                 for sub_set in two_sum(index + 1, target - sub_sum):
                     result.add(tuple(half + list(sub_set)))
         
-        return list(map(list, result))
+        return map(list, result)
 
 
 ############ two sum O(n^3) ############

@@ -25,7 +25,10 @@ class Solution:
             return 0
         
         m = x / 2.0
-        while abs(m * m - x) > 0.000001:
+        # note: using `while abs(m * m - x) > 0.0001` is
+        #   not good enough for very small and very large
+        #   numbers, say 1e-10 and 1e50
+        while abs(m * m - x) / x > 0.0001:
             m = (m + x / m) / 2
         
         return int(m)

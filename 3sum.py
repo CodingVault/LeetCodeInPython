@@ -64,7 +64,7 @@ class Solution:
         return result
 
 
-################ even faster ################
+################ even faster O(n^2) ################
 # 1000 loops, best of 3: 456 µs per loop
 
 class Solution:
@@ -103,7 +103,7 @@ class Solution:
         return result
 
 
-################ hashtable + binary search ################
+################ hashtable + binary search O(n^2 lgn) ################
 # 1000 loops, best of 3: 762 µs per loop
 
 class Solution:
