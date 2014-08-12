@@ -27,10 +27,6 @@ Return 6.
 
 # TODO: try D&C
 
-# TODO: it's likely there is unnecessary steps -- instead of passing
-#   ancestor sum down, only compare max path sum upward.
-#   Currently, the algo will get the max value passing through each node.
-
 # Definition for a  binary tree node
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,6 +34,40 @@ Return 6.
 #         self.left = None
 #         self.right = None
 
+class Solution:
+    # @param root, a tree node
+    # @return an integer
+    def maxPathSum(self, root):
+        
+        def max_sum(node):
+            """Returns a tuple:
+                1. maximum value of
+                    a. the max path sum including current node
+                    b. the max path sum of left subtree
+                    c. the max path sum of right subtree
+                2. max upward sum, up to current node
+            """
+            
+            if node is None:
+                return (-100000000, 0)
+            
+            max_left, left_sum = max_sum(node.left)
+            max_right, right_sum = max_sum(node.right)
+            
+            # sum of path: left child path, right child path and
+            # current node, where left child path and right child
+            # path only contribute positive sub-sum
+            passing_through = left_sum + node.val + right_sum
+            
+            max_child_sum = max(left_sum, right_sum)
+            
+            return (max(passing_through, max_left, max_right),
+                    max(max_child_sum + node.val, 0))
+        
+        return max_sum(root)[0]
+
+
+# sum_down is unnecessary
 class Solution:
     # @param root, a tree node
     # @return an integer
