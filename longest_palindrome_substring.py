@@ -39,6 +39,42 @@ class Solution:
         return s[left + 1 : right]
 
 
+############# Updated from my own version #############
+class Solution:
+    # @return a string
+    def longestPalindrome(self, s):
+        
+        def max_palindrome(left, right):
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                left, right = left - 1, right + 1
+            return s[left + 1 : right]
+        
+        longest = ''
+        for distance in xrange(len(s) / 2 + 1):
+            # distance needs to be (len(s) / 2) to reach index len(s) - 1
+            # which could be a palindrome of length 2
+            
+            for sign in (-1, 1):
+                i = len(s) / 2 + sign * distance
+                
+                # even palindrome
+                cur_max = max_palindrome(i - 1, i)
+                if len(cur_max) > len(longest):
+                    longest = cur_max
+                
+                # odd palindrome
+                cur_max = max_palindrome(i - 1, i + 1)
+                if len(cur_max) > len(longest):
+                    longest = cur_max
+            
+            # longest substring in the next loop will be
+            # 2 * (len(s) / 2 - distance) with current distance
+            if 2 * (len(s) / 2 - distance) <= len(longest):
+                return longest
+        
+        return longest
+
+
 ############# O(n^2) #############
 # http://blog.shengwei.li/leetcode-longest-palindromic-substring/
 class Solution:

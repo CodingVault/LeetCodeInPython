@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-23.
 """
 
 # https://oj.leetcode.com/problems/divide-two-integers/
-# tags: medium / hard, numbers, bit manipulation, edge cases
+# tags: medium / hard, signed numbers, bit manipulation, edge cases
 
 """
 Divide two integers without using multiplication, division and mod operator.
@@ -55,19 +55,21 @@ class Solution:
 
         # store the sign of the result and only deal with positive
         # values afterward; only the outmost call actually cares about it
-        negative = (dividend == abs(dividend)) ^ (divisor == abs(divisor))
+        negative = dividend * divisor < 0
         dividend, divisor = abs(dividend), abs(divisor)
-
+        
         if dividend < divisor:
             # including dividend == 0
             return 0
-
-        i = 1
-        while divisor << i <= dividend:
-            i += 1
-        remainder = dividend - (divisor << i - 1)
-
-        count = 2 ** (i - 1) + self.divide(remainder, divisor)
+        
+        # note: do not increase divisor directly; it's used recursively
+        quotient, accumulator = 1, divisor
+        while accumulator << 1 <= dividend:
+            accumulator <<= 1
+            quotient <<= 1
+        remainder = dividend - accumulator
+        quotient += self.divide(remainder, divisor)
+        
         if negative:
-            return -count
-        return count
+            return -quotient
+        return quotient

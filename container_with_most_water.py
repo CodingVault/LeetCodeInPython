@@ -33,6 +33,7 @@ class Solution:
             max_area = max(max_area, current_area)
             
             # find next pair of lines higher than current
+            # min height of start and end
             while start < end and heights[start] <= height:
                 start += 1
             while end > start and heights[end] <= height:

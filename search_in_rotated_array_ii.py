@@ -50,7 +50,12 @@ class Solution:
                 else:
                     right = mid
             else:
-                # cannot decide
+                # cannot decide which side is sorted;
+                # this essentially equals:
+                #   1. move left cursor to the right by 1;
+                #   2. move left and mid cursor to the right by 1;
+                #   3. continue until it can make a decison.
+                # the worst case, left meets mid and right, O(n)
                 left += 1
         
         return False

@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-27.
 """
 
 # https://oj.leetcode.com/problems/count-and-say/
-# tags: medium / hard, numbers
+# tags: medium, numbers
 
 """
 The count-and-say sequence is the sequence of integers beginning as follows:
@@ -35,6 +35,8 @@ class Solution:
                 else:
                     tmp += str(count) + c
                     c, count = num[index], 1
+            
+            # note: remember to add the last sequence
             num = tmp + str(count) + c
             
         return num

@@ -57,3 +57,17 @@ class Solution:
         y = y if S[-1] == T[-1] else 0
         
         return x + y
+
+class Solution:
+    # @return an integer
+    def numDistinct(self, S, T):
+        if len(S) < len(T):
+            return 0
+        if T == '':
+            return 1
+
+        count = self.numDistinct(S[:-1], T)
+        if S[-1] == T[-1]:
+            count += self.numDistinct(S[:-1], T[:-1])
+
+        return count

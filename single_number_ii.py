@@ -17,6 +17,16 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 """
 
 # https://oj.leetcode.com/discuss/857/constant-space-solution
+# left part: x[i] inherits the value of x[i - 1] if a == 1
+# right part: reset x[i] to 0 if a == 1
+#   x[i] == 0: then x[i] is still 0;
+#   x[i] == 1: if a == 0, x[i] == 1; if a == 1, x[i] == 0
+#       x   a   result
+#       1   0   1
+#       1   1   0
+#       0   0   0
+#       0   1   0
+
 # https://oj.leetcode.com/discuss/5122/how-does-python-work-on-bits
 # TODO: try different approaches
 # note: two loops from 0 through 31 can be combined
