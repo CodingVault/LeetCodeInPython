@@ -39,9 +39,6 @@ class Solution:
     # @param root, a tree node
     # @return a list of integers
     def inorderTraversal(self, root):
-        if root is None:
-            return []
-        
         res = []
         stack = [root]
         
@@ -58,6 +55,7 @@ class Solution:
                 stack.append(stack[-1].left)
             else:
                 # pop up the None element
+                # alternative: stack[-2:] = [stack[-2].right]
                 stack.pop()
                 
                 node = stack.pop()
