@@ -17,24 +17,23 @@ For example,
 [1,1,2], [1,2,1], and [2,1,1].
 """
 
-def perm(array):
-    if len(array) <= 1:
-        return [array]
-    all_perm = []
-    processed = set()
-    for i in xrange(len(array)):
-        single = array[i]
-        if single in processed:
-            continue
-        
-        processed.add(single)
-        rest = array[:i] + array[i+1:]
-        for each in perm(rest):
-            all_perm.append(each + [single])
-    return all_perm
-
 class Solution:
     # @param nums, a list of integer
     # @return a list of lists of integers
     def permuteUnique(self, nums):
-        return perm(nums)
+        if len(nums) <= 1:
+            return [nums]
+        
+        all_perm = []
+        processed = set()
+        for i in xrange(len(nums)):
+            single = nums[i]
+            if single in processed:
+                continue
+            processed.add(single)
+            
+            rest = nums[:i] + nums[i+1:]
+            for each in self.permuteUnique(rest):
+                all_perm.append(each + [single])
+        
+        return all_perm
