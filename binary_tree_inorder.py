@@ -47,8 +47,8 @@ class Solution:
         while len(stack) > 1 or stack[-1]:
             # if the top element in the stack is None,
             # it means left subtree has been processed;
-            # in other word, the next element should
-            # be processed now.
+            # in other words, the second top element
+            # should be processed now.
             
             # if it's not None, add left subtree to stack
             if stack[-1]:
