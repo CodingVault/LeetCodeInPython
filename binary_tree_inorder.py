@@ -26,7 +26,7 @@ Note: Recursive solution is trivial, could you do it iteratively?
 confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on OJ.
 """
 
-# http://leetcode.com/2010/04/binary-search-tree-in-order-traversal.html
+# http://leetcode.com/2010/04/binary-search-tree-in-order-traversal.html (404)
 
 # Definition for a  binary tree node
 # class TreeNode:

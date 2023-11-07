@@ -21,6 +21,8 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
 # https://oj.leetcode.com/discuss/59/different-definitions-balanced-result-different-judgments
 
 def check_balance(node):
+    """Retrun -1 if unbalanced; if balanced, return the depth
+    """
     if node == None:
         return 0
     

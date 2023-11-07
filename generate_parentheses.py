@@ -37,3 +37,37 @@ class Solution:
                     yield each
         
         return list(generator('', n, n))
+
+
+# 04/14/2022 --> faster
+def gen_parantheses(n):
+
+    res = set()
+
+    def gen(holder, left, right):
+        if (right == n):
+            res.add(''.join(holder))
+            return
+
+        if (left < n):
+            holder.append('(')
+            gen(holder, left + 1, right)
+            holder.pop()
+
+        if (right < left):
+            holder.append(')')
+            gen(holder, left, right + 1)
+            holder.pop()
+
+    gen([], 0, 0)
+
+    return res
+
+
+"""
+In [62]: timeit(generateParenthesis(10))
+35.8 ms ± 147 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+
+In [63]: timeit(gen_parantheses(10))
+23.7 ms ± 89.8 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+"""

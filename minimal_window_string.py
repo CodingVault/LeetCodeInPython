@@ -23,6 +23,8 @@ If there is no such window in S that covers all characters in T, return the emtp
 If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.
 """
 
+# https://leetcode.com/problems/minimum-window-substring/discuss/26804/12-lines-Python
+
 
 """
 Notes for 3 bugs while implementing:

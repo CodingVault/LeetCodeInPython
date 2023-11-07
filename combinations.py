@@ -25,28 +25,6 @@ If n = 4 and k = 2, a solution is:
 ]
 """
 
-# TODO: use explicit dp matrix instead of recursion
-"""
-pseudo-code
-  for j in [1..n]:
-    matrix[1][j] = [[j]]
-    
-  for i in [2..k]:  # length of each combination
-    for j in [i..n]:  # current number
-      for k in [i-1 .. j-1]:  # loop through prior combinations for number < j
-        matrix[i][j] = []
-        for each in matrix[i-1][k]:
-          each.append(j)
-          matrix[i][j].append(each)
-  
-  result = []
-  # collect all combinations for sub_combinations from matrix[k][k..n]
-  for j in [k..n]:
-    result.extend(matrix[k][j])
-"""
-
-# TODO: dfs
-
 class Solution:
     # @return a list of lists of integers
     def combine(self, n, k):
@@ -68,3 +46,44 @@ class Solution:
             return res
         
         return comb(range(1, n+1), k)
+
+
+# TODO: use explicit dp matrix instead of recursion
+"""
+pseudo-code
+  for j in [1..n]:
+    matrix[1][j] = [[j]]
+    
+  for i in [2..k]:  # length of each combination
+    for j in [i..n]:  # current number
+      for t in [i-1 .. j-1]:  # loop through prior combinations for number < j
+        matrix[i][j] = []
+        for each in matrix[i-1][t]:
+          each.append(j)
+          matrix[i][j].append(each)
+  
+  result = []
+  # collect all combinations for sub_combinations from matrix[k][k..n]
+  for j in [k..n]:
+    result.extend(matrix[k][j])
+"""
+
+# TODO: dfs
+
+# 04/13/2022
+def combine(n, k):
+    array = range(1, n + 1)
+    res = set()
+
+    def comb(start, sub_arr):
+        if len(sub_arr) == k:
+            res.add(tuple(sub_arr))
+            return
+
+        for i in range(start, n):
+            sub_arr.append(array[i])
+            comb(i + 1, sub_arr)
+            sub_arr.pop()
+
+    comb(0, [])
+    return res

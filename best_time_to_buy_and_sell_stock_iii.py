@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-22.
 """
 
 # https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
-# tags: hard, array, logic, tricky, edge cases
+# tags: hard, array, dp, logic, tricky, edge cases
 
 """
 Say you have an array for which the ith element is the price of a given stock on day i.

@@ -33,15 +33,18 @@ class Solution:
     def fourSum(self, nums, target):
         nums = sorted(nums)
         result = set()
+        # cache all the seen sub-sum of any two numbers prior to current cursor
         cache  = collections.defaultdict(set)
         
-        for i in range(len(nums)):
+        for i in range(len(nums)):  # more strictly -- for i in range(1, len(nums) - 1)
+            # find supplimentray sub-sum in cache for the sub-sum of current cursor and any number after it
             for j in range(i + 1, len(nums)):
                 for half in cache[target - nums[i] - nums[j]]:
                     result.add(tuple(list(half) + [nums[i], nums[j]]))
             
-            for j in range(i):
-                cache[nums[i] + nums[j]].add((nums[j], nums[i]))
+            # cache the sub-sum of current cursor and any number prior to it
+            for k in range(i):
+                cache[nums[i] + nums[k]].add((nums[k], nums[i]))
         
         return map(list, result)
 

@@ -18,7 +18,7 @@ Note: All inputs will be in lower-cas
 def get_marker(s):
     # note: do not sort s; sorting stats is consistent time 
     #   since len(stats) is at most 26
-    stats = dict((c, s.count(c)) for c in s)
+    stats = dict((c, s.count(c)) for c in s)  # --> Counter(s)
     return ''.join('%s%s' % (key, stats[key]) for key in sorted(stats))
 
 class Solution:
