@@ -17,8 +17,25 @@ For example, given n = 3, a solution set is:
 "((()))", "(()())", "(())()", "()(())", "()()()"
 """
 
-# CC 8.5
+# CC 9.6
+# DP: https://leetcode.com/problems/generate-parentheses/solutions/10369/clean-python-dp-solution/
 
+
+# 20231104
+def generate(count):
+    res = []
+    def routine(holder, left, right):
+        if right == count:
+            res.append(holder.decode())
+        if left < count:
+            routine(holder + b'(', left + 1, right)
+        if left > right:
+            routine(holder + b')', left, right + 1)
+    routine(bytearray('', 'utf-8'), 0, 0)
+    return res
+
+
+# generator: https://leetcode.com/problems/generate-parentheses/solutions/10096/4-7-lines-python/
 class Solution:
     # @param an integer
     # @return a list of string

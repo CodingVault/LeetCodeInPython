@@ -7,6 +7,7 @@ Created by Shengwei on 2014-07-10.
 """
 
 # https://oj.leetcode.com/problems/first-missing-positive/
+# tags: hard, array, logic
 
 """
 Given an unsorted integer array, find the first missing positive integer.

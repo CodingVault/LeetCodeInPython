@@ -26,7 +26,7 @@ Transition from (one transaction) to (as many as possible transactions):
 2. for two transactions, they are
     a) either the prior big one transaction, and another second-max profit transaction;
     b) or the two max profit transactions broken down from the first max profit transaction;
-3. for tree transactions, ...
+3. for three transactions, ...
 """
 
 # https://oj.leetcode.com/discuss/1381/any-solutions-better-than-o-n-2

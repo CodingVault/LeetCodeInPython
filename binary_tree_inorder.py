@@ -35,6 +35,22 @@ confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on
 #         self.left = None
 #         self.right = None
 
+
+# 20231029
+def inorder(root):
+    cur = root
+    stack = []
+    while stack or cur:
+        if cur:
+            stack.append(cur)
+            cur = cur.left
+        else:
+            node = stack.pop()
+            print(node.value)
+            cur = node.right
+
+
+
 class Solution:
     # @param root, a tree node
     # @return a list of integers
