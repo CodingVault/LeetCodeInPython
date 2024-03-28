@@ -1,0 +1,97 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+207. Course Schedule
+
+Created by Shengwei on 2023-10-31.
+"""
+
+# https://leetcode.com/problems/course-schedule/description/
+# tags: medium, topological sort, array, recursion
+
+"""
+There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.
+
+For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
+Return true if you can finish all courses. Otherwise, return false.
+
+ 
+
+Example 1:
+
+Input: numCourses = 2, prerequisites = [[1,0]]
+Output: true
+Explanation: There are a total of 2 courses to take. 
+To take course 1 you should have finished course 0. So it is possible.
+Example 2:
+
+Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+Output: false
+Explanation: There are a total of 2 courses to take. 
+To take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.
+ 
+
+Constraints:
+
+1 <= numCourses <= 2000
+0 <= prerequisites.length <= 5000
+prerequisites[i].length == 2
+0 <= ai, bi < numCourses
+All the pairs prerequisites[i] are unique.
+"""
+
+# Recursive (20231031)
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        from collections import defaultdict
+
+        courses = defaultdict(int)
+        deps = defaultdict(set)
+        for (course, pre) in prerequisites:
+            deps[pre].add(course)
+            courses.setdefault(pre, 0)
+            courses[course] += 1
+        
+        completed = set()
+        def complete_course(course):
+            completed.add(course)
+            for dep in deps[course]:
+                courses[dep] -= 1
+                if courses[dep] == 0:
+                    complete_course(dep)
+        
+        for c, cnt in courses.items():
+        	# note: check if "c" has been processed in recursion
+            if c not in completed and cnt == 0:
+                complete_course(c)
+        
+        return all(cnt == 0 for cnt in courses.values())
+
+
+# Iterative (20220508)
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        from collections import defaultdict, deque
+        
+        can_study = deque()
+        prereq = defaultdict(int)  # value: number of prerequisites for course i
+        dep = defaultdict(set)  # value: set of depending courses of course i
+        
+        for course, pre in prerequisites:
+            prereq[course] += 1
+            dep[pre].add(course)
+        
+        for course in range(numCourses):
+            if course not in prereq:
+                can_study.append(course)
+        
+        while can_study:
+            course = can_study.popleft()
+            for depending in dep[course]:
+                if prereq[depending] == 1:
+                    prereq.pop(depending)
+                    can_study.append(depending)
+                else:
+                    prereq[depending] -= 1
+        
+        return len(prereq) == 0
