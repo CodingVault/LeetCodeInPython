@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-linked_list_random_pointer.py
+138. Copy List with Random Pointer
 
 Created by Shengwei on 2014-07-01, re-implemented on 2014-07-15.
+
+Meta: 11/10/2023 -- phone screen
 """
 
 # https://oj.leetcode.com/problems/copy-list-with-random-pointer/

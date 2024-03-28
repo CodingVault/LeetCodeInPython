@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-merge_sorted_array.py
+88. Merge Sorted Array
 
 Created by Shengwei on 2014-07-15.
+
+Meta: 11/10/2023 -- phone screen
 """
 
 # https://oj.leetcode.com/problems/merge-sorted-array/

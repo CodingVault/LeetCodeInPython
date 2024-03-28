@@ -17,31 +17,55 @@ Given a string, find the length of the longest substring without repeating chara
 # https://oj.leetcode.com/discuss/6168/my-o-n-solution
 
 
-# alternative: use dict instead of set to shortcut the second inner loop
+#20240321
+class Solution(object):
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        left = right = 0
+        maxl = 0
+        cache = {}
+        # note: can be replaced with `enumerate`
+        while right < len(s):
+            # move `left` only when `cache[s[right]]` is greater than `left`;
+            # s[right] could be seen earlier before the `left` position
+            # note: "equal" must be included
+            if s[right] in cache and left <= cache[s[right]]:
+                maxl = max(maxl, right - left)
+                left = cache[s[right]] + 1
+            cache[s[right]] = right
+            right += 1
+        return max(maxl, len(s) - left)
 
+
+# 20140724
 class Solution:
     # @return an integer
     def lengthOfLongestSubstring(self, s):
-    cache = {}
-    start = end = 0
-    max_length = 0
+        cache = {}
+        start = end = 0
+        max_length = 0
 
-    while end < len(s):
-        if s[end] in cache and cache[s[end]] >= start:
-            # the char s[end] exists in range [start, end),
-            # move start to the next char of prior `s[end]`
-            start = cache[s[end]] + 1
+        while end < len(s):
+            if s[end] in cache and cache[s[end]] >= start:
+                # the char s[end] exists in range [start, end),
+                # move start to the next char of prior `s[end]`
+                start = cache[s[end]] + 1
 
-        # update the index with latest one
-        cache[s[end]] = end
-        end += 1
+            # update the index with latest one
+            cache[s[end]] = end
+            end += 1
 
-        max_length = max(max_length, end - start)
+            max_length = max(max_length, end - start)
 
-    return max_length
+        return max_length
 
 
 ######### rudimentary version #########
+
+# alternative: use dict instead of set to shortcut the second inner loop
 
 class Solution:
     # @return an integer

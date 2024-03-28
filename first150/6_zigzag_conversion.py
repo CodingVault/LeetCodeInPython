@@ -7,6 +7,7 @@ Created by Shengwei on 2014-07-15.
 """
 
 # https://oj.leetcode.com/problems/zigzag-conversion/
+# tags: medium, string, logic, edge cases
 
 """
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)

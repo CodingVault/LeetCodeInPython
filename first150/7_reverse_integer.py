@@ -7,6 +7,7 @@ Created by Shengwei on 2014-07-16.
 """
 
 # https://oj.leetcode.com/problems/reverse-integer/
+# tags: easy / medium, numbers, integer, edge cases
 
 """
 Reverse digits of an integer.

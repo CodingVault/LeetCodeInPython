@@ -4,6 +4,9 @@
 simplify_path.py
 
 Created by Shengwei on 2014-07-24.
+
+Used:
+* Meta: https://www.1point3acres.com/bbs/thread-1026092-1-1.html
 """
 
 # https://oj.leetcode.com/problems/simplify-path/

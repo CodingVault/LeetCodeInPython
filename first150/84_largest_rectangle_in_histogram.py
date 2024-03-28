@@ -42,5 +42,6 @@ class Solution:
             
             stack.append(index)
         
+        # reset heights back as the input
         heights.pop()
         return max_area
