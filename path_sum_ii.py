@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-02.
 """
 
 # https://oj.leetcode.com/problems/path-sum-ii/
-# tags: easy, tree, dfs, sum
+# tags: medium, tree, dfs, sum
 
 """
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
@@ -60,4 +60,3 @@ class Solution:
         
         check_sum(root, sum)
         return res
-

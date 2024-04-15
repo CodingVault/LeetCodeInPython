@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-20.
 """
 
 # https://oj.leetcode.com/problems/combination-sum-ii/
-# tags: medium, array, combination, sum, dp, recursion, dfs
+# tags: medium, array, combination, sum, dp, recursion, dfs, generator
 
 """
 Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.

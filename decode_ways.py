@@ -63,7 +63,7 @@ class Solution:
         if int(s[0]) != 0:
             if s[1:] == '': return 1
             ways += self.numDecodings(s[1:])
-        if int(s[:2]) > 9 and int(s[:2]) < 27:
-            if s[:2] == '': return ways + 1
+        if 9 < int(s[:2]) < 27:
+            if s[2:] == '': return ways + 1
             ways += self.numDecodings(s[2:])
         return ways

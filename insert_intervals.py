@@ -23,6 +23,89 @@ Given [1,2],[3,5],[6,7],[8,10],[12,16], insert and merge [4,9] in as [1,2],[3,10
 This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
 """
 
+
+# 20240411
+class Solution:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        if not intervals:
+            return [newInterval]
+        if not newInterval:
+            return intervals
+        
+        # note: edge cases if new interval is greater or smaller than all existing ones
+        if newInterval[1] < intervals[0][0]:
+            return [newInterval] + intervals
+        if newInterval[0] > intervals[-1][1]:
+            return intervals + [newInterval]
+
+        begins, ends = [], []
+        begin = end = None
+        for interval in intervals:
+            if interval[1] < newInterval[0]:
+                begins.append(interval[0])
+                ends.append(interval[1])
+            elif interval[0] > newInterval[1]:
+                if newInterval[0] > ends[-1]:
+                    # note: edge case when there is no overlap for new interval
+                    begins.append(newInterval[0])
+                    ends.append(newInterval[1])
+                begins.append(interval[0])
+                ends.append(interval[1])
+            else:
+                if begin is None:
+                    begin = min(interval[0], newInterval[0])
+                    begins.append(begin)
+                else:
+                    begins[-1] = min(begins[-1], interval[0])
+
+                if end is None:
+                    end = max(interval[1], newInterval[1])
+                    ends.append(end)
+                else:
+                    ends[-1] = max(ends[-1], interval[1])
+
+        return list(zip(begins, ends))
+
+# alternative / reversed if..else
+class Solution:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        if not intervals:
+            return [newInterval]
+        if not newInterval:
+            return intervals
+        
+        if newInterval[1] < intervals[0][0]:
+            return [newInterval] + intervals
+        if newInterval[0] > intervals[-1][1]:
+            return intervals + [newInterval]
+
+        begins, ends = [], []
+        begin = end = None
+        for interval in intervals:
+            if interval[1] >= newInterval[0] and interval[0] <= newInterval[1]:
+                if begin is None:
+                    begin = min(interval[0], newInterval[0])
+                    begins.append(begin)
+                else:
+                    begins[-1] = min(begins[-1], interval[0])
+
+                if end is None:
+                    end = max(interval[1], newInterval[1])
+                    ends.append(end)
+                else:
+                    ends[-1] = max(ends[-1], interval[1])
+            else:
+                if interval[0] > newInterval[1] and newInterval[0] > ends[-1]:
+                    begins.append(newInterval[0])
+                    ends.append(newInterval[1])
+                begins.append(interval[0])
+                ends.append(interval[1])
+
+        return list(zip(begins, ends))
+
+
+
+
 # https://gist.github.com/senvey/772e0afd345934cee475
 
 # note: sorting isn't actually required

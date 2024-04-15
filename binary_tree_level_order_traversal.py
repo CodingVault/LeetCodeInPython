@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-29.
 """
 
 # https://oj.leetcode.com/problems/binary-tree-level-order-traversal/
-# tags: easy, tree, traversal, bfs
+# tags: easy, tree, traversal, bfs, generator
 
 """
 Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).

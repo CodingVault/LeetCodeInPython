@@ -21,6 +21,21 @@ For example, given n = 3, a solution set is:
 # DP: https://leetcode.com/problems/generate-parentheses/solutions/10369/clean-python-dp-solution/
 
 
+# 20240330
+def generate(count):
+    res = set()
+    def routine(s, left, right):
+        if right == 0:
+            res.add(s.decode())
+            return
+        if left > 0:
+            routine(s + b'(', left - 1, right)
+        if right > left:
+            routine(s + b')', left, right - 1)
+    routine(bytearray('', 'utf-8'), count, count)
+    return res
+
+
 # 20231104
 def generate(count):
     res = []

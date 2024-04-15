@@ -48,7 +48,9 @@ We say that "rgtae" is a scrambled string of "great".
 Given two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.
 """
 
-# https://oj.leetcode.com/discuss/3632/any-better-solution
+# https://leetcode.com/problems/scramble-string/solutions/29445/any-better-solution/
+# (https://oj.leetcode.com/discuss/3632/any-better-solution)
+# https://leetcode.com/problems/scramble-string/solutions/29396/simple-iterative-dp-java-solution-with-explanation/
 
 """
 TODO: memorized version:

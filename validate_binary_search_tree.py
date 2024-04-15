@@ -47,5 +47,6 @@ class Solution:
             return (check(left, min_val, node.val) and
                     check(right, node.val, max_val))
         
-        # return check(root, -sys.maxint - 1, sys.maxint)
+        # alternative: return check(root, -sys.maxint - 1, sys.maxint)
+        # Py3: sys.maxsize
         return check(root, -9223372036854775808, 9223372036854775807)

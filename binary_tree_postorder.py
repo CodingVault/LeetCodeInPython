@@ -24,6 +24,8 @@ return [3,2,1].
 Note: Recursive solution is trivial, could you do it iteratively?
 """
 
+# See also: postorder iterator - https://gist.github.com/senvey/4d4f7192b3718adf9d8c
+
 ##### V3 #####
 
 # Definition for a  binary tree node

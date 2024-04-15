@@ -14,6 +14,7 @@ Given a string S, find the longest palindromic substring in S. You may assume th
 """
 
 ############# O(n) #############
+# https://hackernoon.com/manachers-algorithm-explained-longest-palindromic-substring-22cb27a5e96f
 # TODO
 
 

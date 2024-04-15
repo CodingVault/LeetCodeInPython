@@ -34,6 +34,32 @@ Return 6.
 #         self.left = None
 #         self.right = None
 
+
+# 20240330
+class Solution:
+
+    def __init__(self):
+        self.cur_max = 0
+
+    def max_sum(self, node):
+        if not node:
+            return 0
+
+        # print('current', node.value)
+        left_sum = self.max_sum(node.left)
+        # print('left', left_sum)
+        right_sum = self.max_sum(node.right)
+        # print('right', right_sum)
+        self.cur_max = max(cur_max, left_sum + right_sum + node.value)
+        # print('cur_max', self.cur_max)
+        return max(0, left_sum + node.value, right_sum + node.value)
+
+    def maxPathSum(self, root):
+        self.max_sum(root)
+        return self.cur_max
+
+
+# 2014
 class Solution:
     # @param root, a tree node
     # @return an integer

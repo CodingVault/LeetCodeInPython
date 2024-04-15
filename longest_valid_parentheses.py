@@ -29,6 +29,7 @@ class Solution:
         # the last one length[len(s)] is a sentinel
         lengths = [0] * (len(s) + 1)
         
+        # alternative: `for i, chr in enumerate(s):`
         for i in xrange(len(s)):
             if s[i] == '(':
                 stack.append(i)

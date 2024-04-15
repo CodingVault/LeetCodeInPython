@@ -6,7 +6,8 @@ restore_ip_address.py
 Created by Shengwei on 2014-07-04.
 """
 
-# https://oj.leetcode.com/problems/restore-ip-addresses/
+# https://oj.leetcode.com/discuss/77/restore-ip-addresses
+# tags: medium, string, dp, generator, dfs
 
 """
 Given a string containing only digits, restore it by returning all possible valid IP address combinations.
@@ -16,9 +17,6 @@ Given "25525511135",
 
 return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
 """
-
-# https://oj.leetcode.com/discuss/77/restore-ip-addresses
-# tags: medium, string, dp, generator, dfs
 
 # TODO: DP or 3 loops
 # put 3 dots in len(s) - 1 places, but the distance between two dots must be 1 - 3,

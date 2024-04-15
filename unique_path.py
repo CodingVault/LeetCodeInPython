@@ -24,7 +24,7 @@ Note: m and n will be at most 100.
 
 # https://oj.leetcode.com/discuss/383/solve-unique-paths-with-linear-algorithm
 
-# Improvoment: only need O(min(m,n)) space
+# Improvement: only need O(min(m,n)) space
 
 class Solution:
     # @return an integer

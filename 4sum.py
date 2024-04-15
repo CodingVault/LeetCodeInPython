@@ -31,8 +31,8 @@ The solution set must not contain duplicate quadruplets.
 class Solution:
     # @return a list of lists of length 4, [[val1,val2,val3,val4]]
     def fourSum(self, nums, target):
-        nums = sorted(nums)
-        result = set()
+        nums = sorted(nums) # sorted list guarantee unique results; otherwise, dedup also works
+        results = set()
         # cache all the seen sub-sum of any two numbers prior to current cursor
         cache  = collections.defaultdict(set)
         
@@ -40,13 +40,13 @@ class Solution:
             # find supplimentray sub-sum in cache for the sub-sum of current cursor and any number after it
             for j in range(i + 1, len(nums)):
                 for half in cache[target - nums[i] - nums[j]]:
-                    result.add(tuple(list(half) + [nums[i], nums[j]]))
+                    results.add(tuple(list(half) + [nums[i], nums[j]]))
             
             # cache the sub-sum of current cursor and any number prior to it
             for k in range(i):
                 cache[nums[i] + nums[k]].add((nums[k], nums[i]))
         
-        return map(list, result)
+        return map(list, results)
 
 
 ############ without two sum but using `set` (faster) ############

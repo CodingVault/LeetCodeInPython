@@ -72,7 +72,6 @@ pseudo-code
 
 # 04/13/2022
 def combine(n, k):
-    array = range(1, n + 1)
     res = set()
 
     def comb(start, sub_arr):
@@ -81,7 +80,7 @@ def combine(n, k):
             return
 
         for i in range(start, n):
-            sub_arr.append(array[i])
+            sub_arr.append(i + 1)
             comb(i + 1, sub_arr)
             sub_arr.pop()
 

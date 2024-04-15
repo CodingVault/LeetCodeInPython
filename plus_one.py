@@ -7,6 +7,7 @@ Created by Shengwei on 2014-07-15.
 """
 
 # https://oj.leetcode.com/problems/plus-one/
+# tags: easy, numbers, array
 
 """
 Given a non-negative number represented as an array of digits, plus one to the number.

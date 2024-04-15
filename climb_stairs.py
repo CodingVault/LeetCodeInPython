@@ -17,6 +17,20 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 # TODO: different ways to do this
 
+
+
+# 20240329
+def climb(n):
+    if n <= 2:
+        return n
+
+    prior, cur = 1, 2
+    for _ in range(n - 2):
+        prior, cur = cur, prior + cur
+    return cur
+
+
+
 class Solution:
     # @param n, an integer
     # @return an integer

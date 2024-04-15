@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-20.
 """
 
 # https://oj.leetcode.com/problems/subsets/
-# tags: easy / medium, numbers, set, combination, dfs
+# tags: easy / medium, numbers, set, combination, dfs, generator
 
 """
 Given a set of distinct integers, S, return all possible subsets.
@@ -31,6 +31,25 @@ If S = [1,2,3], a solution is:
 """
 
 # TODO: different ways to do it
+
+
+# 20240415 - generator
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        
+        def gen(array):
+            if not array:
+                yield []
+                return
+            
+            for subset in gen(array[1:]):
+                yield subset
+                yield [array[0]] + subset
+        
+        return list(gen(nums))
+
+
+
 
 class Solution:
     # @param S, a list of integer

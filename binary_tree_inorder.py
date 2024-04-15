@@ -38,6 +38,14 @@ confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on
 
 # 20231029
 def inorder(root):
+    """logic:
+    1. put node to stack when it's not None and move to the left
+        - this cannot be: put node's left to the stack when its not None;
+            it will remove the left child and then put it back when visiting its parent later
+        - alternative: add the left child regardless of its None or not;
+            see the next solution below for adaption to that approach
+    2. process the top of stack if it has no left, then put the right in stack
+    """
     cur = root
     stack = []
     while stack or cur:

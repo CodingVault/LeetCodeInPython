@@ -7,6 +7,7 @@ Created by Shengwei on 2014-07-15.
 """
 
 # https://oj.leetcode.com/problems/permutation-sequence/
+# tags: medium / hard, permutation, numbers, logic
 
 """
 The set [1,2,3,…,n] contains a total of n! unique permutations.

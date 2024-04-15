@@ -13,6 +13,10 @@ Created by Shengwei on 2014-07-15.
 Write a function to find the longest common prefix string amongst an array of strings.
 """
 
+
+# easier and faster: https://leetcode.com/problems/longest-common-prefix/solutions/3174307/well-explained-code-using-strings-in-java/
+
+
 class Solution:
     # @return a string
     def longestCommonPrefix(self, strs):

@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-30.
 """
 
 # https://oj.leetcode.com/problems/recover-binary-search-tree/
-# tags: medium / hard, tree, traversal, optimization, recursion
+# tags: medium / hard, tree, traversal, optimization, recursion, tricky
 
 """
 Two elements of a binary search tree (BST) are swapped by mistake.

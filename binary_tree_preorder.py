@@ -31,6 +31,19 @@ Note: Recursive solution is trivial, could you do it iteratively?
 #         self.left = None
 #         self.right = None
 
+
+# 20240329
+def preorder(root):
+    cur, stack = root, []
+    while stack or cur:
+        if cur:
+            print(cur.value)
+            stack.append(cur)
+            cur = cur.left
+        else:
+            cur = stack.pop().right
+
+
 class Solution:
     # @param root, a tree node
     # @return a list of integers

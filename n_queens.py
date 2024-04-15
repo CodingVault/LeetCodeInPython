@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-23.
 """
 
 # https://oj.leetcode.com/problems/n-queens/
-# tags: medim / hard, matrix, bit manipulation, generator, dfs, edge cases, bitmap
+# tags: medim / hard, matrix, bit manipulation, generator, dfs, edge cases, bitmap, tricky
 
 """
 The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
@@ -55,7 +55,7 @@ class Solution:
             while availables:
                 pos = availables & (-availables)  # get the rightmost bit that is 1
                 availables -= pos  # remove current pos from availables
-                index = int(math.log(pos, 2))  # comput the index where to put queen
+                index = int(math.log(pos, 2))  # compute the index where to put queen
                 
                 # note: remember the recursive call is an iterater and yield again
                 line[index] = 'Q'

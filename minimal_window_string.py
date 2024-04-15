@@ -26,6 +26,44 @@ If there are multiple such windows, you are guaranteed that there will always be
 # https://leetcode.com/problems/minimum-window-substring/discuss/26804/12-lines-Python
 
 
+# 20240412
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        """Valid example:
+            s -> 'ABBDCA', t -> 'ABC'
+        """
+        if len(s) < len(t):
+            return ''
+
+        from collections import Counter
+        counter = Counter(t)
+        size = len(t)
+        
+        # use `end` as a flag; it will be a valid index if moved
+        begin, end = 0, len(s)  # define current min window
+        left = right = 0  # define sliding window
+
+        while right < len(s):
+            if s[right] in counter:
+                counter[s[right]] -= 1
+                if counter[s[right]] >= 0:
+                    size -= 1
+            
+            while size == 0:
+                if s[left] in counter:
+                    counter[s[left]] += 1
+                    if counter[s[left]] > 0:
+                        size += 1
+                        if end - begin > right - left:
+                            begin, end = left, right
+                left += 1
+            
+            right += 1
+        
+        return s[begin:end+1] if end < len(s) else ''
+
+
+
 """
 Notes for 3 bugs while implementing:
 1. should move left pointer when substring is set other than left > 0;

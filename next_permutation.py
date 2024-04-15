@@ -32,6 +32,13 @@ class Solution:
     # @return a list of integer
     def nextPermutation(self, nums):
         
+        # implementation:
+        # 1. for each num from right to left, reverse them as long as it's increasing
+        #   - compare each new num (from right to left) to the rightmost one
+        #   - keep moving the num to the rightmost to reverse numbers
+        # 2. from left to right, find the first num that's greater than the decreasing num
+        #   and switch them
+        # issue: slow on reverse in the #1 step
         for index in xrange(-1, -len(nums) - 1, -1):
             if nums[index] < nums[-1]:
                 for switch in xrange(index + 1, 0):

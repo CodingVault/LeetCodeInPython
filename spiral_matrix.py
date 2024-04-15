@@ -7,7 +7,7 @@ Created by Shengwei on 2014-07-27.
 """
 
 # https://oj.leetcode.com/problems/spiral-matrix/
-# tags: medium / hard, matrix, spacial, edge cases
+# tags: medium / hard, matrix, spacial, edge cases, generator
 
 """
 Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
@@ -22,6 +22,9 @@ Given the following matrix:
 ]
 You should return [1,2,3,6,9,8,7,4,5].
 """
+
+# https://leetcode.com/problems/spiral-matrix/solutions/20571/1-liner-in-python-ruby/
+
 
 # https://oj.leetcode.com/discuss/3925/1-2-4-3-is-not-a-wrong-answer
 # alternatives that don't work (m rows and n cols):
