@@ -7,7 +7,7 @@ Created by Shengwei on 2022-04-18.
 """
 
 # https://leetcode.com/problems/valid-palindrome-ii/
-# tags: easy / medium, string
+# tags: easy / medium, string, palindrome
 
 """
 Given a string s, return true if the s can be palindrome after deleting at most one character from it.
@@ -70,14 +70,14 @@ class Solution:
     def validPalindrome(self, s: str) -> bool:
         if not s: return True
         
-        def is_pal(s):
-            return s == s[::-1]
-        
         left, right = 0, len(s) - 1
         while left < right:
             if s[left] != s[right]:
                 break
             left += 1
             right -= 1
+        
+        def is_pal(s):
+            return s == s[::-1]
         
         return is_pal(s[left+1:right+1]) or is_pal(s[left:right])

@@ -44,6 +44,9 @@ Follow up: Could you do it in O(n) time and O(1) space?
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        """Use slow/fast cursors to reverse the first half of the list,
+            and then compare pairs of nodes from the middle
+        """
         rev = None
         slow = fast = head
         while fast and fast.next:

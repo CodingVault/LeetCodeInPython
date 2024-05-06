@@ -34,4 +34,4 @@ The number of nodes in the tree is in the range [0, 104].
 -1000 <= Node.val <= 1000
 """
 
-# https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74259/Recursive-preorder-Python-and-C%2B%2B-O(n)
+# https://leetcode.com/problems/serialize-and-deserialize-binary-tree/solutions/74259/recursive-preorder-python-and-c-o-n/

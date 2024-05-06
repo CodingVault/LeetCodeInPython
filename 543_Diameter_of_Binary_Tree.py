@@ -3,7 +3,7 @@
 """
 543. Diameter of Binary Tree
 
-Created by Shengwei on 2023-10-06.
+Created by Shengwei on 2023-11-06.
 
 Used:
 * Meta: https://www.1point3acres.com/bbs/thread-1026007-1-1.html
@@ -23,10 +23,10 @@ The length of a path between two nodes is represented by the number of edges bet
 
 Example 1:
 
-
 Input: root = [1,2,3,4,5]
 Output: 3
 Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].
+
 Example 2:
 
 Input: root = [1,2]
@@ -47,6 +47,29 @@ The number of nodes in the tree is in the range [1, 104].
 #         self.right = right
 
 
+# 20240506
+class Solution:
+
+    def __init__(self):
+        self.diameter = 0
+
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        self.check(root)
+        return self.diameter
+        
+    def check(self, node):
+        if not node:
+            return 0
+        
+        left_length = self.check(node.left)
+        right_length = self.check(node.right)
+        current_diameter = left_length + right_length
+        self.diameter = max(self.diameter, current_diameter)
+
+        return max(left_length, right_length) + 1
+
+
+# 20231107
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         

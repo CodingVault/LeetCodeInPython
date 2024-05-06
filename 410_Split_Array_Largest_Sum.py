@@ -7,7 +7,7 @@ Created by Shengwei on 2023-10-28.
 """
 
 # https://leetcode.com/problems/split-array-largest-sum/description/
-# tags: hard, array, number, binary
+# tags: hard, array, number, binary, dp
 
 """
 Given an integer array nums and an integer k, split nums into k non-empty subarrays such that the largest sum of any subarray is minimized.
@@ -40,6 +40,7 @@ Constraints:
 """
 
 # greedy: go from left to right and sum up to a limit --> results in the least number of splits
+# alternative (dp): https://leetcode.com/problems/split-array-largest-sum/solutions/89846/python-solution-with-detailed-explanation/
 
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:

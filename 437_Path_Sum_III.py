@@ -49,6 +49,7 @@ The number of nodes in the tree is in the range [0, 1000].
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
+        from functools import cache
 
         @cache
         def sub(node, target):

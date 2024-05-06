@@ -6,8 +6,9 @@ longest_consecutive_sequence.py
 Created by Shengwei on 2014-07-13.
 """
 
+# https://leetcode.com/problems/longest-consecutive-sequence/description/
 # https://oj.leetcode.com/problems/longest-consecutive-sequence/
-# tags: hard, array, numbers, hashtable, longest, tricky
+# tags: hard, array, numbers, hashtable, longest, tricky, union-find, disjoint set
 
 """
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.

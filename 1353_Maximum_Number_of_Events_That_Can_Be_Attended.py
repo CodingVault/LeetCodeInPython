@@ -4,6 +4,9 @@
 1353. Maximum Number of Events That Can Be Attended 
 
 Created by Shengwei on 2022-04-18.
+
+Used:
+* FB: https://www.1point3acres.com/bbs/thread-885226-1-1.html
 """
 
 # https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
@@ -39,8 +42,6 @@ Constraints:
 events[i].length == 2
 1 <= startDayi <= endDayi <= 105
 """
-
-# https://www.1point3acres.com/bbs/thread-885226-1-1.html (FB)
 
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:

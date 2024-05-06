@@ -29,11 +29,13 @@ Example 1:
 
 Input: s = "())"
 Output: 1
+
+
 Example 2:
 
 Input: s = "((("
 Output: 3
- 
+
 
 Constraints:
 
