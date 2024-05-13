@@ -4,6 +4,9 @@
 1762. Buildings With an Ocean View Level
 
 Created by Shengwei on 2023-10-29.
+
+Used:
+- TikTok (20240510): https://www.1point3acres.com/bbs/thread-1061817-1-1.html
 """
 
 # Locked: https://leetcode.ca/2021-04-14-1762-Buildings-With-an-Ocean-View/

@@ -4,6 +4,9 @@
 163. Missing Ranges
 
 Created by Shengwei on 2023-10-28.
+
+Used:
+- TikTok (20240510): https://www.1point3acres.com/bbs/thread-1063465-1-1.html
 """
 
 # Locked
