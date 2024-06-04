@@ -10,7 +10,7 @@ Used:
 """
 
 # locked - https://leetcode.ca/2021-07-24-1891-Cutting-Ribbons/
-# tags: easy / medium, array, sorting, binary search
+# tags: medium, array, sorting, binary search, tricky
 
 """
 You are given an integer array ribbons, where ribbons[i] represents the length of the i-th ribbon, and an integer k. You may cut any of the ribbons into any number of segments of positive integer lengths, or perform no cuts at all.
