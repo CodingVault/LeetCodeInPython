@@ -77,6 +77,8 @@ class Solution:
 
         cache = {c: 1 for c in coins}
         for i in range(min(coins) + 1, amount + 1):
+            # alternative of `for` loop:
+            #   cache[i] = min(cache.get(i - c, float('inf')) + 1 for c in coins)
             for c in coins:
                 if i - c not in cache:
                     continue

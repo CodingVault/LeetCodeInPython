@@ -36,6 +36,11 @@ class Solution:
             index = row
             while index < len(s):
                 res += s[index]
+
+                # add extra char inbetween two vertical columns:
+                # for the first row and the last row (distance == 0),
+                # there is no char inbetween two vertical columns,
+                # so exclude these two rows
                 distance = nRows - 1 - row
                 if row > 0 and distance > 0:
                     next_index = index + 2 * distance
