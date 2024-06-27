@@ -52,6 +52,50 @@ this should avoid duplicate processing of reversed strings in the original solut
 """
 
 
+# 20240627
+class Solution:
+    def removeInvalidParentheses(self, s: str) -> List[str]:
+        stack = []
+        for i, c in enumerate(s):
+            if c == ')' and stack and s[stack[-1]] == '(':
+                stack.pop()
+            elif c in ('(', ')'):
+                stack.append(i)
+        # stack should contain indices of extra parentheses
+        # print('stack:', stack)
+        
+        # loop through stack from left to right upto first '(', or exhaust all extra ')';
+        # then loop back from the last to left (using negative index) upto first ')', or exhaust all extra '('
+        def remove(str_p, stack_p, p_to_remove):
+            # print('remove:', str_p, stack_p, p_to_remove)
+            if stack_p >= len(stack) or stack_p <= -len(stack) - 1 or stack_p < 0 and s[stack[stack_p]] == ')':
+                removal_set = set(p_to_remove)
+                yield ''.join(c for i, c in enumerate(s) if i not in removal_set and i - len(s) not in removal_set)
+                return
+
+            par_p = stack[stack_p]
+            if stack_p >= 0:
+                if s[par_p] == ')':
+                    for p in range(str_p, par_p + 1):
+                        if s[p] == ')' and (p == str_p or s[p - 1] != ')'):
+                            p_to_remove.append(p)
+                            for each in remove(p + 1, stack_p + 1, p_to_remove):
+                                yield each
+                            p_to_remove.pop()
+                else:
+                    for each in remove(-1, -1, p_to_remove):
+                        yield each
+            else:
+                par_p = stack[stack_p] - len(s)
+                for p in range(str_p, par_p - 1, -1):
+                    if s[p] == '(' and (p == str_p or s[p + 1] != '('):
+                        p_to_remove.append(p)
+                        for each in remove(p - 1, stack_p - 1, p_to_remove):
+                            yield each
+                        p_to_remove.pop()
+        
+        return list(remove(0, 0, []))
+
 
 # https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution
 
