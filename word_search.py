@@ -27,6 +27,35 @@ word = "SEE", -> returns true,
 word = "ABCB", -> returns false.
 """
 
+
+# 20240626 Py3
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        
+        if not word: return True
+        if not board or not board[0]: return False
+
+        m, n = len(board), len(board[0])
+        directions = ((0, 1), (0, -1), (-1, 0), (1, 0))
+        marker = [[0] * n for _ in range(m)]
+
+        def check(row, col, wi):
+            if 0 <= row < m and 0 <= col < n and not marker[row][col]:
+                if word[wi] == board[row][col]:
+                    if wi == len(word) - 1:
+                        return True
+
+                    marker[row][col] = 1
+                    if any(check(row + dr, col + dc, wi + 1) for dr, dc in directions):
+                        return True
+                    marker[row][col] = 0
+            
+            return False
+        
+        return any(check(r, c, 0) for r in range(m) for c in range(n))
+
+
+# 20140705 Py2
 def match(board, marker, row, col, word):
     if (row >= 0 and row < len(board) and
             col >= 0 and col < len(board[row])):
