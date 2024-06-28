@@ -40,6 +40,7 @@ Return 6.
 class Solution:
 
     def __init__(self):
+        # note: not necessarily in `__init__`
         self.cur_max = 0
 
     def max_sum(self, node):
@@ -51,7 +52,7 @@ class Solution:
         # print('left', left_sum)
         right_sum = self.max_sum(node.right)
         # print('right', right_sum)
-        self.cur_max = max(cur_max, left_sum + right_sum + node.value)
+        self.cur_max = max(self.cur_max, left_sum + right_sum + node.value)
         # print('cur_max', self.cur_max)
         return max(0, left_sum + node.value, right_sum + node.value)
 
